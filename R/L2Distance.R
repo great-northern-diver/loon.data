@@ -1,4 +1,3 @@
-L2Distance <- function(a,b,df = 0){
 #    A - (DxM) matrix 
 #    B - (DxN) matrix
 #    df = 1, force diagonals to be zero; 0 (default), do not force
@@ -35,27 +34,29 @@ L2Distance <- function(a,b,df = 0){
 # output is all real, and allows the option of forcing diagonals to
 # be zero.  
 
+L2Distance <- function(a, b, df = 0) {
+
   ## if a is a vector convert it to a matrix
-  if(is.matrix(a)==FALSE){
+  if (is.matrix(a)==FALSE) {
     a <- t(matrix(a))
   }
   ## if b is a vector convert it to a matrix
-  if(is.matrix(b)==FALSE){
+  if (is.matrix(b)==FALSE) {
     b <- t(matrix(b))
   }
 
 
-  if(dim(a)[1] != dim(b)[1]){
+  if (dim(a)[1] != dim(b)[1]) {
     stop("L2distance: A and B should be of same dimensionality")
   }
 
   
-  if (all(is.numeric(a), is.numeric(b)) == FALSE){
+  if (all(is.numeric(a), is.numeric(b)) == FALSE) {
     stop('Warning: running distance.m with imaginary numbers.  Results may be off.')
   }
 
   D <- dim(a)[1]
-  if(D == 1){
+  if (D == 1) {
     a <- rbind(a,rep(0,D))
     b <- rbind(b,rep(0,D))
   }
@@ -64,7 +65,7 @@ L2Distance <- function(a,b,df = 0){
 
 
   ## copied from: http://haky-functions.blogspot.com/search/label/matlab2R
-  repmat = function(X,m,n){
+  repmat = function(X, m, n) {
     ##R equivalent of repmat (matlab)
     mx = dim(X)[1]
     nx = dim(X)[2]
@@ -80,5 +81,6 @@ L2Distance <- function(a,b,df = 0){
   if (df==1){
     diag(d) <- 0
   }
-  return(d)
+  
+  d
 }

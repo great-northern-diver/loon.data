@@ -1,17 +1,12 @@
 Package: RnavGraphImageData
 Type: Package
-Title: Some image data used in the RnavGraph package demos
-Version: 0.0.3
-Date: 2013-04-30
-Author: Adrian R. Waddell and R. Wayne Oldford
-Maintainer: Adrian Waddell <adrian@waddell.ch>
-URL: http://www.navgraph.com
-Description: Image data used as examples in the RnavGraph R package.
-        See the demos in the RnavGraph package.
+Title: Image Data Used in the Loon Package Demos
+Version: 0.0.4
+Authors@R: c(
+    person("Adrian", "Waddell", , "adrian@waddell.ch", role = c("aut", "cre")),
+    person("R. Wayne", "Oldford", , "rwoldford@uwaterloo.ca", role = "aut")
+    )
+Description: Image data used as examples in the loon R package.
+URL: http://waddella.github.io/loon/
 Depends: R (>= 2.10.0)
-Suggests: RnavGraph
 License: GPL-2
-Packaged: 2013-04-30 19:37:08 UTC; adrian
-NeedsCompilation: no
-Repository: CRAN
-Date/Publication: 2013-05-01 09:23:05
