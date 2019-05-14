@@ -1,0 +1,27 @@
+home:
+  strip_header: true
+
+navbar:
+  type: default
+  right:
+  - icon: fa-github fa-lg
+    href: http://great-northern-diver.github.io/loon.data/
+
+development:
+  mode: release
+
+
+reference:
+  - title: Data
+    desc:  Data in the package
+    contents:
+    - digits
+    - faces
+    - frey
+    - ordfrey
+    - binaryalphadigits
+    - ordalphadigits
+  - title: Functions
+    desc:  Helper Functions
+    contents:
+    - list_data
