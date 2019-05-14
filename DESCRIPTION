@@ -1,12 +1,14 @@
-Package: RnavGraphImageData
+Package: loon.data
 Type: Package
-Title: Image Data Used in the Loon Package Demos
-Version: 0.0.4
+Title: Data Used in the Loon Package Demos
+Version: 0.0.5
 Authors@R: c(
-    person("Adrian", "Waddell", , "adrian@waddell.ch", role = c("aut", "cre")),
-    person("R. Wayne", "Oldford", , "rwoldford@uwaterloo.ca", role = "aut")
+    person("R. Wayne", "Oldford", , "rwoldford@uwaterloo.ca", role =  c("aut", "cre")),
+    person("Adrian", "Waddell", , "adrian@waddell.ch", role = "aut")
     )
-Description: Image data used as examples in the loon R package.
-URL: http://waddella.github.io/loon/
+Description: Data used as examples in the loon R package.
+URL: http://great-northern-diver.github.io/loon.data/
 Depends: R (>= 2.10.0)
 License: GPL-2
+RoxygenNote: 6.1.1
+Encoding: UTF-8
