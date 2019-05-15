@@ -3,5 +3,5 @@
 LICENSE
 .travis.yml
 _pkgdown.yml
-/docs/*
+docs/*
 README.md
