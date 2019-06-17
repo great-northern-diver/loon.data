@@ -42,7 +42,11 @@ From website:
  from numerous permanent sample plots distributed across interior and south-central Alaska 
  including the Kenai Peninsula. 
  The CAFI currently has 570 permanent sample plots on 190 sites representing a wide variety 
- of growing conditions. New plots are being added to the inventory annually."
+ of growing conditions. New plots are being added to the inventory annually. (...)
+ Repeated periodic inventories on CAFI permanent sample plots provide valuable long-term 
+ information for modeling of forest dynamics such as growth and yield. 
+ Periodic remeasurements can also be used to test and monitor large-scale environmental 
+ and climate change."
 }
 \references{
 Malone, Thomas; Liang, Jingjing; Packee, Edmond C. 2009. 
