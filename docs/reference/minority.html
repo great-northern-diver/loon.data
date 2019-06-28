@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Changelog • loon.data</title>
+<title>Canadian Visible Minority Data 2006 — minority • loon.data</title>
 
 <!-- jquery -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
@@ -30,7 +30,14 @@
 
 
 
-<meta property="og:title" content="Changelog" />
+<meta property="og:title" content="Canadian Visible Minority Data 2006 — minority" />
+
+<meta property="og:description" content="Population census count of various named
+  visible minority groups in each of 33 major census metropolitan
+  areas of Canada in 2006.
+These data are from the 2006 Canadian census, publicly available from
+  Statistics Canada." />
+<meta name="twitter:card" content="summary" />
 
 
 
@@ -47,7 +54,7 @@
   </head>
 
   <body>
-    <div class="container template-news">
+    <div class="container template-reference-topic">
       <header>
       <div class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container">
@@ -99,32 +106,64 @@
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-      <h1>Changelog <small></small></h1>
-      
+    <h1>Canadian Visible Minority Data 2006</h1>
+    
+    <div class="hidden name"><code>minority.Rd</code></div>
     </div>
 
-    <div id="loon-data-0-0-5" class="section level1">
-<h1 class="page-header">
-<a href="#loon-data-0-0-5" class="anchor"></a>loon.data 0.0.5</h1>
-<ul>
-<li>Renamed <code>RnavgraphImageData</code> to <code>loon.data</code>
-</li>
-<li>added <code>list_images</code> functions</li>
-<li>removed <code>L2Distance</code>
-</li>
-</ul>
-</div>
-  </div>
+    <div class="ref-description">
+    
+    <p>Population census count of various named
+  visible minority groups in each of 33 major census metropolitan
+  areas of Canada in 2006.</p>
+<p>These data are from the 2006 Canadian census, publicly available from
+  Statistics Canada.</p>
+    
+    </div>
 
+    <pre class="usage"><span class='no'>minority</span></pre>
+        
+    <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
+
+    <p>A data frame with 33 rows and 18 variates</p><dl class='dl-horizontal'>
+ <dt>Arab</dt><dd><p>Number identifying as `Arab`.</p></dd>
+ <dt>Black</dt><dd><p>Number identifying as `Black`.</p></dd>
+ <dt>Chinese</dt><dd><p>Number identifying as `Chinese`.</p></dd>
+ <dt>Filipino</dt><dd><p>Number identifying as `Filipino`.</p></dd>
+ <dt>Japanese</dt><dd><p>Number identifying as `Japanese`.</p></dd>
+ <dt>Korean</dt><dd><p>Number identifying as `Korean`.</p></dd>
+ <dt>Latin.American</dt><dd><p>Number identifying as `Latin American`.</p></dd>
+ <dt>Multiple.visible.minority</dt><dd><p>Number identifying as being a member
+ of more than one visible minority.</p></dd>
+ <dt>South.Asian</dt><dd><p>Number identifying as `South Asian`.</p></dd>
+ <dt>Southeast.Asian</dt><dd><p>Number identifying as `Southeast Asian`.</p></dd>
+ <dt>Total.population</dt><dd><p>Total population of the metropolitan census area.</p></dd>
+ <dt>Visible.minority.not.included.elsewhere</dt><dd><p>Number identifying as a
+ member of a visible minority that was not included elsewhere.</p></dd>
+ <dt>Visible.minority.population</dt><dd><p>Total number identifying as a
+ member of some visible minority.</p></dd>
+ <dt>West.Asian</dt><dd><p>Number identifying as `West Asian`.</p></dd>
+ <dt>lat, long</dt><dd><p>Latitude and longitude in degrees of the metropolitan census area.</p></dd>
+ <dt>googleLat, googleLong</dt><dd><p>Latitude and longitude in degrees determined
+ using the Google Maps Geocoding API.</p></dd>
+</dl><p>`rownames(minority)` are the names of the metropolitan areas or cities.</p>
+    
+    <h2 class="hasAnchor" id="source"><a class="anchor" href="#source"></a>Source</h2>
+
+    <p><a href='https://www.statcan.gc.ca/'>https://www.statcan.gc.ca/</a></p>
+    
+
+  </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="sidebar">
-    <div id="tocnav">
-      <h2>Contents</h2>
-      <ul class="nav nav-pills nav-stacked">
-        <li><a href="#loon-data-0-0-5">0.0.5</a></li>
-      </ul>
-    </div>
-  </div>
+    <h2>Contents</h2>
+    <ul class="nav nav-pills nav-stacked">
+      
+      <li><a href="#format">Format</a></li>
 
+      <li><a href="#source">Source</a></li>
+          </ul>
+
+  </div>
 </div>
 
       <footer>

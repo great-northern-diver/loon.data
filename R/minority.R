@@ -1,0 +1,38 @@
+#' @title Canadian Visible Minority Data 2006
+#'
+#' @description Population census count of various named
+#'   visible minority groups in each of 33 major census metropolitan
+#'   areas of Canada in 2006.
+#'
+#'   These data are from the 2006 Canadian census, publicly available from
+#'   Statistics Canada.
+#'
+#'
+#' @format A data frame with 33 rows and 18 variates
+#' \describe{
+#'  \item{Arab}{Number identifying as `Arab`.}
+#'  \item{Black}{Number identifying as `Black`.}
+#'  \item{Chinese}{Number identifying as `Chinese`.}
+#'  \item{Filipino}{Number identifying as `Filipino`.}
+#'  \item{Japanese}{Number identifying as `Japanese`.}
+#'  \item{Korean}{Number identifying as `Korean`.}
+#'  \item{Latin.American}{Number identifying as `Latin American`.}
+#'  \item{Multiple.visible.minority}{Number identifying as being a member
+#'  of more than one visible minority.}
+#'  \item{South.Asian}{Number identifying as `South Asian`.}
+#'  \item{Southeast.Asian}{Number identifying as `Southeast Asian`.}
+#'  \item{Total.population}{Total population of the metropolitan census area.}
+#'  \item{Visible.minority.not.included.elsewhere}{Number identifying as a
+#'  member of a visible minority that was not included elsewhere.}
+#'  \item{Visible.minority.population}{Total number identifying as a
+#'  member of some visible minority.}
+#'  \item{West.Asian}{Number identifying as `West Asian`.}
+#'  \item{lat, long}{Latitude and longitude in degrees of the metropolitan census area.}
+#'  \item{googleLat, googleLong}{Latitude and longitude in degrees determined
+#'  using the Google Maps Geocoding API.}
+#' }
+#' `rownames(minority)` are the names of the metropolitan areas or cities.
+#'
+#'
+#' @source \url{https://www.statcan.gc.ca/}
+"minority"
