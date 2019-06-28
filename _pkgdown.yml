@@ -15,6 +15,7 @@ reference:
   - title: Data
     desc:  Data in the package
     contents:
+    - alaska_forest
     - digits
     - faces
     - frey

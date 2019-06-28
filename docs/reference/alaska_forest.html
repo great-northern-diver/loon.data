@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Function reference • loon.data</title>
+<title>Cooperative Alaska Forest Inventory data — alaska_forest • loon.data</title>
 
 <!-- jquery -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
@@ -30,7 +30,10 @@
 
 
 
-<meta property="og:title" content="Function reference" />
+<meta property="og:title" content="Cooperative Alaska Forest Inventory data — alaska_forest" />
+
+<meta property="og:description" content="Cooperative Alaska Forest Inventory data" />
+<meta name="twitter:card" content="summary" />
 
 
 
@@ -47,7 +50,7 @@
   </head>
 
   <body>
-    <div class="container template-reference-index">
+    <div class="container template-reference-topic">
       <header>
       <div class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container">
@@ -97,93 +100,83 @@
       </header>
 
 <div class="row">
-  <div class="contents col-md-9">
+  <div class="col-md-9 contents">
     <div class="page-header">
-      <h1>Reference</h1>
+    <h1>Cooperative Alaska Forest Inventory data</h1>
+    
+    <div class="hidden name"><code>alaska_forest.Rd</code></div>
     </div>
 
-    <table class="ref-index">
+    <div class="ref-description">
+    
+    <p>Cooperative Alaska Forest Inventory data</p>
+    
+    </div>
 
-    <colgroup>
-      
-      <col class="alias" />
-      <col class="title" />
-    </colgroup>
+        
+    <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
 
-    <tbody>
-      <tr>
-        <th colspan="2">
-          <h2 id="section-data" class="hasAnchor"><a href="#section-data" class="anchor"></a>Data</h2>
-          <p class="section-desc"><p>Data in the package</p></p>
-        </th>
-      </tr>
-      <tr>
-        
-        <td>
-          <p><code><a href="alaska_forest.html">alaska_forest</a></code> </p>
-        </td>
-        <td><p>Cooperative Alaska Forest Inventory data</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="digits.html">digits</a></code> </p>
-        </td>
-        <td><p>USPS Handwritten Digits</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="faces.html">faces</a></code> </p>
-        </td>
-        <td><p>Olivetti Faces</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="frey.html">frey</a></code> </p>
-        </td>
-        <td><p>Frey Faces</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="ordfrey.html">ordfrey</a></code> </p>
-        </td>
-        <td><p>Frey Faces Isomap</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="binaryalphadigits.html">binaryalphadigits</a></code> </p>
-        </td>
-        <td><p>Binary Alphadigits</p></td>
-      </tr><tr>
-        
-        <td>
-          <p><code><a href="ordalphadigits.html">ordalphadigits</a></code> </p>
-        </td>
-        <td><p>Binary Alphadigits Isomap</p></td>
-      </tr>
-    </tbody><tbody>
-      <tr>
-        <th colspan="2">
-          <h2 id="section-functions" class="hasAnchor"><a href="#section-functions" class="anchor"></a>Functions</h2>
-          <p class="section-desc"><p>Helper Functions</p></p>
-        </th>
-      </tr>
-      <tr>
-        
-        <td>
-          <p><code><a href="list_data.html">list_data()</a></code> </p>
-        </td>
-        <td><p>List all the data in loon.data</p></td>
-      </tr>
-    </tbody>
-    </table>
+    <p>A data frame with 5425 rows and 8 variables</p><dl class='dl-horizontal'>
+ <dt>site</dt><dd><p>A number identifying the sample plot at which measurements were taken.</p></dd>
+ <dt>mass</dt><dd><p>The biomass recorded in metric tonnes per hectare (Mg/ha)</p></dd>
+ <dt>speciesCode</dt><dd><p>Code identifying the ranking of the species at the site. One of {<code>sp01</code>, <code>sp02</code>, ... , <code>sp05</code> }
+ with <code>sp01</code> identifying this record as the most prevalent species at the site when measured,  
+ <code>sp02</code> the second most prevalent, and so on.</p></dd>
+ <dt>year</dt><dd><p>The year in which the site was visited and the measurements taken.</p></dd>
+ <dt>scientific</dt><dd><p>The scientific name of the species measured</p></dd>
+ <dt>common</dt><dd><p>The common name of the species measured.</p></dd>
+ <dt>Longitude</dt><dd><p>The longitude locating the site in degrees.</p></dd>
+ <dt>Latitude</dt><dd><p>The latitude locating the site in degrees.</p></dd>
+</dl>
+    
+    <h2 class="hasAnchor" id="source"><a class="anchor" href="#source"></a>Source</h2>
+
+    <p>Raw data from source <a href='https://www.fs.usda.gov/treesearch/pubs/32894'>https://www.fs.usda.gov/treesearch/pubs/32894</a> and provided by</p>
+<p>Sol Cooperdock and Brendan Rogers,
+Woods Hole Research Center, 149 Woods Hole Road, Falmouth MA 02540, USA and</p>
+<p>Scott Goetz, School of Informatics, Computing, and Cyber Systems, Northern Arizona University, Flagstaff AZ 86011, USA.</p>
+<p>Processed and provided in current form by  R.W. Oldford, Statistics and Actuarial Science, University of Waterloo, Waterloo ON N2L 3G1, Canada.</p>
+    
+    <h2 class="hasAnchor" id="details"><a class="anchor" href="#details"></a>Details</h2>
+
+    <p>Data on the biomass (Mg/ha) of dominant forest species from several sample plots (sites)
+in Alaska, each sampled over several years.  Original data taken from the Cooperative Alaska
+Forest Inventory website.</p>
+<p>From website:</p>
+<p>"The Cooperative Alaska Forest Inventory (CAFI) is a comprehensive database of boreal 
+ forest conditions and dynamics in Alaska. The CAFI consists of field-gathered information
+ from numerous permanent sample plots distributed across interior and south-central Alaska 
+ including the Kenai Peninsula. 
+ The CAFI currently has 570 permanent sample plots on 190 sites representing a wide variety 
+ of growing conditions. New plots are being added to the inventory annually. (...)
+ Repeated periodic inventories on CAFI permanent sample plots provide valuable long-term 
+ information for modeling of forest dynamics such as growth and yield. 
+ Periodic remeasurements can also be used to test and monitor large-scale environmental 
+ and climate change."</p>
+    
+    <h2 class="hasAnchor" id="references"><a class="anchor" href="#references"></a>References</h2>
+
+    <p>Malone, Thomas; Liang, Jingjing; Packee, Edmond C. 2009. 
+  Cooperative Alaska Forest Inventory. 
+  Gen. Tech. Rep. PNW-GTR-785. 
+  Portland, OR: 
+  U.S. Department of Agriculture, Forest Service, Pacific Northwest Research Station. 42 p</p>
+    
+
   </div>
-
   <div class="col-md-3 hidden-xs hidden-sm" id="sidebar">
     <h2>Contents</h2>
     <ul class="nav nav-pills nav-stacked">
-      <li><a href="#section-data">Data</a></li>
-      <li><a href="#section-functions">Functions</a></li>
-    </ul>
+      
+      <li><a href="#format">Format</a></li>
+
+      <li><a href="#source">Source</a></li>
+
+      <li><a href="#details">Details</a></li>
+
+      <li><a href="#references">References</a></li>
+          </ul>
+
   </div>
 </div>
 
