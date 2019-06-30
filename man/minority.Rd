@@ -42,4 +42,9 @@ Population census count of various named
   These data are from the 2006 Canadian census, publicly available from
   Statistics Canada.
 }
-\keyword{datasets}
+\author{
+R.W. Oldford
+}
+\keyword{census}
+\keyword{data}
+\keyword{population}

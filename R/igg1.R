@@ -51,6 +51,11 @@
 #'  \item{group}{A group characteristic for that residue.}
 #' }
 #' 
+#' @docType data
+#' 
+#' @keywords data molecule 3D antibody
+#' 
+#' @author R.W. Oldford
 #' 
 #' @references
 #'

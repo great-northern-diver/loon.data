@@ -32,7 +32,9 @@
 
 <meta property="og:title" content="USPS Handwritten Digits — digits" />
 
-<meta property="og:description" content="8-bit 16x16 grayscale images of &quot;0&quot; through &quot;9&quot;; 1100 examples of each class." />
+<meta property="og:description" content="U.S. Postal Service handwritten digit &quot;0&quot; through &quot;9&quot;.
+Each is an 8-bit 16x16 grayscale image of a single digit;
+1100 examples of each class." />
 <meta name="twitter:card" content="summary" />
 
 
@@ -109,14 +111,22 @@
 
     <div class="ref-description">
     
-    <p>8-bit 16x16 grayscale images of "0" through "9"; 1100 examples of each class.</p>
+    <p>U.S. Postal Service handwritten digit "0" through "9".</p>
+<p>Each is an 8-bit 16x16 grayscale image of a single digit;</p>
+<p>1100 examples of each class.</p>
     
     </div>
 
         
     <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
 
-    <p>Data frame with one image per column.</p>
+    <p>A data frame with 256 rows and 11000 variables.</p> 
+<p>Each row corresponds to an 8-bit value of one
+ of the 256 cells contained in a 16 x 16 image.</p> 
+<p>Each column is the 16 x 16 image of a single handwritten digit.
+ There are 1100 different handwritten images of each digit
+ appearing in blocks of 1100 columns in the order
+ "1", "2", "3", "4", "5", "6", "7", "8", "9", "0"</p>
     
     <h2 class="hasAnchor" id="source"><a class="anchor" href="#source"></a>Source</h2>
 
