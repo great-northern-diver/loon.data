@@ -70,4 +70,10 @@ John Day, Aaron Greenwood and Alexander McPherson (1992)
 "The three-dimensional structure of an intact monoclonal
 antibody for canine lymphoma", Nature, 360, pp. 369-372.
 }
-\keyword{datasets}
+\author{
+R.W. Oldford
+}
+\keyword{3D}
+\keyword{antibody}
+\keyword{data}
+\keyword{molecule}

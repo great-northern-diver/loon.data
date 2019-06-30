@@ -33,6 +33,9 @@
 #' }
 #' `rownames(minority)` are the names of the metropolitan areas or cities.
 #'
-#'
+#' @author R.W. Oldford
+#' @docType data
+#' @keywords data census population
+#' 
 #' @source \url{https://www.statcan.gc.ca/}
 "minority"

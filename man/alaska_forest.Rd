@@ -55,4 +55,7 @@ Malone, Thomas; Liang, Jingjing; Packee, Edmond C. 2009.
   Portland, OR: 
   U.S. Department of Agriculture, Forest Service, Pacific Northwest Research Station. 42 p
 }
+\author{
+R.W. Oldford.
+}
 \keyword{data}

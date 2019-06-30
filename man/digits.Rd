@@ -4,11 +4,23 @@
 \name{digits}
 \alias{digits}
 \title{USPS Handwritten Digits}
-\format{Data frame with one image per column.}
+\format{A data frame with 256 rows and 11000 variables.
+ 
+ Each row corresponds to an 8-bit value of one
+ of the 256 cells contained in a 16 x 16 image.
+ 
+ Each column is the 16 x 16 image of a single handwritten digit.
+ There are 1100 different handwritten images of each digit
+ appearing in blocks of 1100 columns in the order
+ "1", "2", "3", "4", "5", "6", "7", "8", "9", "0"}
 \source{
 \url{http://www.cs.nyu.edu/~roweis/data.html}
 }
 \description{
-8-bit 16x16 grayscale images of "0" through "9"; 1100 examples of each class.
+U.S. Postal Service handwritten digit "0" through "9".
+
+Each is an 8-bit 16x16 grayscale image of a single digit;
+
+1100 examples of each class.
 }
 \keyword{data}
