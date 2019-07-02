@@ -5,6 +5,7 @@
 #'
 #' @name frey
 #' @docType data
+#' @export
 #' @format Data frame with one image per column.
 #' @source \url{http://www.cs.nyu.edu/~roweis/data.html}
 #' @keywords data

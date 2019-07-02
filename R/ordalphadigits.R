@@ -7,7 +7,11 @@
 #' \code{isomap(vegdist(binaryalphadigits), k=6)}.
 #' 
 #' @name ordalphadigits
+#' 
 #' @docType data
+#' 
+#' @export
+#' 
 #' @format Object of class 'isomap'.
 #' @keywords data
 NULL
