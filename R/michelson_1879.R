@@ -61,8 +61,6 @@
 #' 
 #' @docType data
 #' 
-#' @export
-#' 
 #' @keywords data lightspeed
 #' @author 
 #' R.W. Oldford

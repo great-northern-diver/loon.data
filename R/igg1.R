@@ -53,8 +53,6 @@
 #' 
 #' @docType data
 #' 
-#' @export
-#' 
 #' @keywords data molecule 3D antibody
 #' 
 #' @author R.W. Oldford

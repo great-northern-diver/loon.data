@@ -19,7 +19,6 @@
 #' 
 #' @name digits
 #' @docType data
-#' @export
 #' @source \url{http://www.cs.nyu.edu/~roweis/data.html}
 #' @keywords data
 NULL

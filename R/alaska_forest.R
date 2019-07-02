@@ -45,7 +45,7 @@
 #' Processed and provided in current form by  R.W. Oldford, Statistics and Actuarial Science, University of Waterloo, Waterloo ON N2L 3G1, Canada.
 #' 
 #' @docType data
-#' @export
+#' 
 #' @author 
 #' R.W. Oldford.
 #' 

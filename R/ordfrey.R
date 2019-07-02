@@ -8,8 +8,6 @@
 #' 
 #' @name ordfrey
 #' @docType data
-#' 
-#' @export
 #' @format Object of class 'isomap'.
 #' @keywords data
 NULL
