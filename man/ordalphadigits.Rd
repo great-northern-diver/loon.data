@@ -12,5 +12,7 @@ Binary Alphadigits Isomap
 Dissimilarity object of class 'isomap'. Returned from:
 
 \code{isomap(vegdist(binaryalphadigits), k=6)}.
+
+Introduced simply to cache the results of this step so as to speed up demos.
 }
 \keyword{data}
