@@ -27,9 +27,6 @@
 \source{
 \url{https://projecteuclid.org/euclid.ss/1009212817}
 }
-\usage{
-michelson_1879
-}
 \description{
 In 1879, Albert Abraham Michelson conducted an experimental study to
 determine the speed of light using a rotating mirror apparatus at the
