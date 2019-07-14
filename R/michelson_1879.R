@@ -8,6 +8,8 @@
 #' given in the reference.  An abbreviated summary of these follows the variable descriptions.
 #'
 #'
+#' @name michelson_1879
+#' 
 #' @format A data frame with 100 rows and 15 variables
 #' \describe{
 #'  \item{Speed}{The determined speed of light in air in kilometres per second.}
@@ -73,4 +75,4 @@
 #'   Statistical Science, Volume 15, No. 3, pp. 254-278.
 #' @source 
 #' \url{https://projecteuclid.org/euclid.ss/1009212817}  
-"michelson_1879"
+NULL

@@ -16,17 +16,17 @@ reference:
     desc:  Data in the package
     contents:
     - alaska_forest
+    - binaryalphadigits
+    - ordalphadigits
     - digits
     - faces
     - frey
+    - ordfrey
     - igg1
     - lightspeeds
     - michelson_1879
     - minority
-    - ordfrey
-    - binaryalphadigits
-    - ordalphadigits
   - title: Functions
-    desc:  Helper Functions
+    desc:  Help find data
     contents:
-    - list_data
+    - pkg_data

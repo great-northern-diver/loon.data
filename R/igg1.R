@@ -53,6 +53,8 @@
 #' 
 #' @docType data
 #' 
+#' @name igg1
+#' 
 #' @keywords data molecule 3D antibody
 #' 
 #' @author R.W. Oldford
@@ -69,4 +71,4 @@
 #'
 #' @source \url{https://www.umass.edu/microbio/rasmol/padlan.htm}
 #' \url{https://www.tocris.com/resources/peptide-nomenclature-guide}
-"igg1"
+NULL

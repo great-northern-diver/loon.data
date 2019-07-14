@@ -119,6 +119,8 @@
 #' 
 #' @docType data
 #' 
+#' @name lightspeeds
+#' 
 #' @keywords data lightspeed
 #' @author 
 #' R.W. Oldford
@@ -132,4 +134,4 @@
 #'   Unpublished manuscript. DOI: 10.13140
 #' @source 
 #' \url{https://www.researchgate.net/publication/275521939_The_speed_of_light_A_case_study_in_empirical_problem_solving}  
-"lightspeeds"
+NULL

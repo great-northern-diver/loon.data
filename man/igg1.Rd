@@ -24,9 +24,6 @@
 \url{https://www.umass.edu/microbio/rasmol/padlan.htm}
 \url{https://www.tocris.com/resources/peptide-nomenclature-guide}
 }
-\usage{
-igg1
-}
 \description{
 Human immunoglobulin G1 is an antibody molecule of
 10,401 atoms.  The great bulk of these form residues attached

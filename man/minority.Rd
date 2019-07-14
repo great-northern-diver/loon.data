@@ -31,9 +31,6 @@
 \source{
 \url{https://www.statcan.gc.ca/}
 }
-\usage{
-minority
-}
 \description{
 Population census count of various named
   visible minority groups in each of 33 major census metropolitan
