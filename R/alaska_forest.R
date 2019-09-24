@@ -3,7 +3,7 @@
 #' @name alaska_forest
 #' @docType data
 #' 
-#' @format A data frame with 5425 rows and 8 variables
+#' @format A data frame with 4848 rows and 8 variables
 #' \describe{
 #'  \item{site}{A number identifying the sample plot at which measurements were taken.}
 #'  \item{mass}{The biomass recorded in metric tonnes per hectare (Mg/ha)}
@@ -13,8 +13,8 @@
 #'  \item{year}{The year in which the site was visited and the measurements taken.}
 #'  \item{scientific}{The scientific name of the species measured}
 #'  \item{common}{The common name of the species measured.}
-#'  \item{Longitude}{The longitude locating the site in degrees.}
-#'  \item{Latitude}{The latitude locating the site in degrees.}
+#'  \item{longitude}{The longitude locating the site in degrees.}
+#'  \item{latitude}{The latitude locating the site in degrees.}
 #' }
 #' 
 #' @details 
