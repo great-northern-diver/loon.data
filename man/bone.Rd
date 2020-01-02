@@ -4,15 +4,17 @@
 \name{bone}
 \alias{bone}
 \title{Relative Spinal Bone Mineral Density Data}
-\format{A data frame with 485 rows and 4 variables
+\format{A data frame with 485 rows and 5 variables
 \describe{
  \item{idnum}{Identifies the subject, and hence the repeat measurements}
  \item{age}{Age of subject averaged over the two times measurements of 
-      `spnbmd` were taken to determine the relative change `rspnbmd`.}
+      \code{spnbmd} were taken to determine the relative change \code{rspnbmd}.}
  \item{sex}{Sex of the subject.  A factor with levels "female" and "male".}
  \item{rspnbmd}{Relative spinal bone mineral density measurement. 
- Each value is the (unitless) difference in `spnbmd`` taken on two 
+ Each value is the (unitless) difference in \code{spnbmd}` taken on two 
  consecutive visits, divided by the average of the two measurements.}
+ \item{ethnic}{The "ethnicity" of the subject.  A factor with levels 
+               "Asian", "Black", "Hispanic", and "White".}
 }
 
 The row order of the values follow their order of appearence in the source webpage.}
@@ -26,12 +28,16 @@ American adolescents.  Each value is the difference in spnbmd
 taken on two consecutive visits, divided by the average. The age is
 the average age over the two visits."
 
-The data are a repackaging of the data of the same name
+The data are a repackaging and extension of the data of the same name
 from the now archived (in 2020) of the 2015 `ElemStatLearn` package of Kjetil B. Halvorsen.
 
-The principal change here is the renaming of the variables `gender` and `spnbmd` to `sex` and `rspnbmd`,
-respectively to better agree with names in the larger and more complete data set `bone_ext` 
-taken from the same study and source webpage.
+The principal changes here is the renaming of the variables \code{gender} and \code{spnbmd} AND in 
+the addition of a new variable \code{ethnic} derived from the \code{\link{bone_ext}} data set.
+
+The variables \code{gender} and \code{spnbmd} were renamed to \code{sex} and \code{rspnbmd},
+respectively, to better agree with names in the larger and more complete data set \code{\link{bone_ext}} 
+taken from the same study and source webpage.  The variable \code{ethnic} was extracted from
+\code{\link{bone_ext}} by matching `idnum` in the two datasets.
 }
 \details{
 The purpose of the study was to examine ethnic and sex differences in bone mineral acquisition over
@@ -43,9 +49,9 @@ These data are a subset of 261 subjects taken from a convenience sample of
 
 The source website does not describe how this subset was chosen.
 
-Rather than the `spnbmd` measurement at each visit of a subject (as with `bone_ext`),
-the response `rspnbmd` denotes the relative change in `spnbmd` between visits and is
-calculated as the difference between the later and early visit values of `spnbmd` divided
+Rather than the \code{spnbmd} measurement at each visit of a subject (as with `bone_ext`),
+the response \code{rspnbmd} denotes the relative change in \code{spnbmd} between visits and is
+calculated as the difference between the later and early visit values of \code{spnbmd} divided
 by the average of these two values.  The `age` variable is similarily taken to be
 the average of the subject's ages at the two visits.
 

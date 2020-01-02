@@ -9,7 +9,7 @@
 #'  \item{idnum}{Identifies the subject, and hence the repeat measurements}
 #'  \item{ethnic}{The "ethnicity" of the subject.  A factor with levels 
 #'                "Asian", "Black", "Hispanic", and "White".}
-#'  \item{age}{The age in years of the subject at the time the measurement `spnbmd` was taken.}
+#'  \item{age}{The age in years of the subject at the time the measurement \code{spnbmd} was taken.}
 #'  \item{sex}{Sex of the subject.  A factor with levels "female" and "male".}
 #'  \item{spnbmd}{The spinal areal bone mineral density (BMD) measurement 
 #'  in grams per square centimetre.}

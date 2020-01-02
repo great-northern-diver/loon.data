@@ -48,11 +48,14 @@
 American adolescents.  Each value is the difference in spnbmd
 taken on two consecutive visits, divided by the average. The age is
 the average age over the two visits.&quot;
-The data are a repackaging of the data of the same name
+The data are a repackaging and extension of the data of the same name
 from the now archived (in 2020) of the 2015 `ElemStatLearn` package of Kjetil B. Halvorsen.
-The principal change here is the renaming of the variables `gender` and `spnbmd` to `sex` and `rspnbmd`,
-respectively to better agree with names in the larger and more complete data set `bone_ext` 
-taken from the same study and source webpage." />
+The principal changes here is the renaming of the variables gender and spnbmd AND in 
+the addition of a new variable ethnic derived from the bone_ext data set.
+The variables gender and spnbmd were renamed to sex and rspnbmd,
+respectively, to better agree with names in the larger and more complete data set bone_ext 
+taken from the same study and source webpage.  The variable ethnic was extracted from
+bone_ext by matching `idnum` in the two datasets." />
 <meta property="og:image" content="/logo.png" />
 <meta name="twitter:card" content="summary" />
 
@@ -136,25 +139,30 @@ taken from the same study and source webpage." />
 American adolescents.  Each value is the difference in spnbmd
 taken on two consecutive visits, divided by the average. The age is
 the average age over the two visits."</p>
-<p>The data are a repackaging of the data of the same name
+<p>The data are a repackaging and extension of the data of the same name
 from the now archived (in 2020) of the 2015 `ElemStatLearn` package of Kjetil B. Halvorsen.</p>
-<p>The principal change here is the renaming of the variables `gender` and `spnbmd` to `sex` and `rspnbmd`,
-respectively to better agree with names in the larger and more complete data set `bone_ext` 
-taken from the same study and source webpage.</p>
+<p>The principal changes here is the renaming of the variables <code>gender</code> and <code>spnbmd</code> AND in 
+the addition of a new variable <code>ethnic</code> derived from the <code><a href='bone_ext.html'>bone_ext</a></code> data set.</p>
+<p>The variables <code>gender</code> and <code>spnbmd</code> were renamed to <code>sex</code> and <code>rspnbmd</code>,
+respectively, to better agree with names in the larger and more complete data set <code><a href='bone_ext.html'>bone_ext</a></code> 
+taken from the same study and source webpage.  The variable <code>ethnic</code> was extracted from
+<code><a href='bone_ext.html'>bone_ext</a></code> by matching `idnum` in the two datasets.</p>
     </div>
 
 
 
     <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
 
-    <p>A data frame with 485 rows and 4 variables</p><dl class='dl-horizontal'>
+    <p>A data frame with 485 rows and 5 variables</p><dl class='dl-horizontal'>
  <dt>idnum</dt><dd><p>Identifies the subject, and hence the repeat measurements</p></dd>
  <dt>age</dt><dd><p>Age of subject averaged over the two times measurements of 
-      `spnbmd` were taken to determine the relative change `rspnbmd`.</p></dd>
+      <code>spnbmd</code> were taken to determine the relative change <code>rspnbmd</code>.</p></dd>
  <dt>sex</dt><dd><p>Sex of the subject.  A factor with levels "female" and "male".</p></dd>
  <dt>rspnbmd</dt><dd><p>Relative spinal bone mineral density measurement. 
- Each value is the (unitless) difference in `spnbmd`` taken on two 
+ Each value is the (unitless) difference in <code>spnbmd</code>` taken on two 
  consecutive visits, divided by the average of the two measurements.</p></dd>
+ <dt>ethnic</dt><dd><p>The "ethnicity" of the subject.  A factor with levels 
+               "Asian", "Black", "Hispanic", and "White".</p></dd>
 
 </dl>
 
@@ -170,9 +178,9 @@ The study recorded areal bone mineral density (BMD) in grams per square centimet
 <p>These data are a subset of 261 subjects taken from a convenience sample of 
 423 healthy young people of various "ethnicities."</p>
 <p>The source website does not describe how this subset was chosen.</p>
-<p>Rather than the `spnbmd` measurement at each visit of a subject (as with `bone_ext`),
-the response `rspnbmd` denotes the relative change in `spnbmd` between visits and is
-calculated as the difference between the later and early visit values of `spnbmd` divided
+<p>Rather than the <code>spnbmd</code> measurement at each visit of a subject (as with `bone_ext`),
+the response <code>rspnbmd</code> denotes the relative change in <code>spnbmd</code> between visits and is
+calculated as the difference between the later and early visit values of <code>spnbmd</code> divided
 by the average of these two values.  The `age` variable is similarily taken to be
 the average of the subject's ages at the two visits.</p>
 

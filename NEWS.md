@@ -5,7 +5,7 @@
 * datasets added are
     - `SAheart`  South African Heart Disease Data
     - `bone` Relative Spinal Bone Mineral Density Data 
-        (note variable name changes from `ElemStatLearn`)
+        (note variable name changes from `ElemStatLearn` and edition of `ethnic`)
     - `bone_ext` Spinal Bone Mineral Density (Extended) Data
         (the larger data set including "ethnicities" from website accompany Elements of Statistical Learning book)
 
