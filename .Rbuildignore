@@ -2,6 +2,7 @@
 ^\.Rproj\.user$
 LICENSE
 .travis.yml
+pkgdown/*
 _pkgdown.yml
 docs/*
 README.md

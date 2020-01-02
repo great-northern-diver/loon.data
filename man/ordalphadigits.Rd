@@ -15,4 +15,8 @@ Dissimilarity object of class 'isomap'. Returned from:
 
 Introduced simply to cache the results of this step so as to speed up demos.
 }
-\keyword{data}
+\seealso{
+\code{\link{binaryalphadigits}}
+}
+\keyword{data,}
+\keyword{images}

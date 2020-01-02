@@ -3,29 +3,38 @@
 \docType{data}
 \name{SAheart}
 \alias{SAheart}
-\title{South African Hearth Disease Data}
+\title{South African Heart Disease Data}
 \format{A data frame with 462 rows and 10 variables
 \describe{
- \item{method}{Systolic blood pressure in millimetres of mercury (mm Hg).}
- \item{tobacco}{Cumulative tobacco use in }
+ \item{sbp}{Systolic blood pressure in millimetres of mercury (mm Hg).}
+ \item{tobacco}{Cumulative tobacco use in kilograms. 
+               Appears to be lifetime cumulative; not annual.}
  \item{ldl}{Low density lipoprotein cholesterol.}
- \item{adiposity}{Second researcher named, if any.}
- \item{famhist}{Third researcher named, if any.}
- \item{typea}{Fourth researcher named, if any.}
- \item{obesity}{Type of mechanism used (see details below).}
- \item{alcohol}{More detail on mechanism used (see details below).}
- \item{age}{Age in years at time of study (Source: `Age at onset'.)}
+ \item{adiposity}{Not recorded in source; 
+      presumably another measurement of obesity similar to BMI. 
+      Possibly a "corrected" version of obesity measure.}
+ \item{famhist}{Factor indicating presence or absence of a family history 
+                of ischaemic heart disease.}
+ \item{typea}{Type-A coronary prone personality behaviour as measured by
+              a self-administered Bortner Short Rating Scale.  Possible total
+              scores can range from 12 to 84.  Rossouw et al. (1983) "arbitrarily" 
+              classify those with scores of 55 or more "as exhibiting type A behaviour."}
+ \item{obesity}{A measure of obesity; body mass index (or BMI) is consistent with Rossouw et al. (1983).
+                Having BMI >= 30 scored as "obese" by Rossouw et al. (1983).}
+ \item{alcohol}{Current alcohol consumption.  Units of measurement (quantity/time) 
+                are unclear (e.g litres per annum, ounces per month?);
+                alcohol not mentioned in Rossouw et al. (1983).}
+ \item{age}{Age in years at time of study (Source web page: `Age at onset'.)}
  \item{chd}{The response, a factor identifying whether the subject 
             had been diagnosed as having coronary heart disease or not.}
 }
 
-The row order of the values follow their order of appearence 
-in the paper given as reference below.}
+The row order of the values follow their order of appearence in the source webpage.}
 \source{
 \url{https://web.stanford.edu/~hastie/ElemStatLearn/}
 }
 \description{
-From the source: 
+From the web source: 
 "A retrospective sample of males in a heart-disease high-risk region 
 of the Western Cape, South Africa. There are roughly two controls per case of CHD. 
 Many of the CHD positive men have undergone blood pressure reduction treatment 
