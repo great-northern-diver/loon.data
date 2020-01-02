@@ -36,7 +36,7 @@
 #' @author R.W. Oldford
 #' @docType data
 #' @name minority
-#' @keywords data census population
+#' @keywords census population
 #' 
 #' @source \url{https://www.statcan.gc.ca/}
 NULL

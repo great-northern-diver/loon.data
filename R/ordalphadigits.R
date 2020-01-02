@@ -13,5 +13,6 @@
 #' @docType data
 #' 
 #' @format Object of class 'isomap'.
-#' @keywords data
+#' @seealso \code{\link{binaryalphadigits}}
+#' @keywords images
 NULL

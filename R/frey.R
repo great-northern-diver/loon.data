@@ -1,11 +1,13 @@
 #' Frey Faces
 #'
-#' From Brendan Frey. Almost 2000 images of Brendan's face, taken from
-#' sequential frames of a small video. Size: 20x28.
+#' 1,965 images of Brendan Frey's face, taken from
+#' sequential frames of a small video. Image size: 20x28.
 #'
 #' @name frey
 #' @docType data
-#' @format Data frame with one image per column.
+#' @format Data frame with 1,965 variables (one image per column) and 560 rows 
+#' (the 560 greyscale values of a 20x28 image).
 #' @source \url{http://www.cs.nyu.edu/~roweis/data.html}
-#' @keywords data
+#' @keywords images
+#' @seealso \code{\link{ordfrey}}, \code{\link{faces}}
 NULL

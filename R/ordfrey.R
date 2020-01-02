@@ -11,5 +11,6 @@
 #' @name ordfrey
 #' @docType data
 #' @format Object of class 'isomap'.
-#' @keywords data
+#' @keywords images
+#' @seealso \code{\link{frey}}
 NULL

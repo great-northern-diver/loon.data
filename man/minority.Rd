@@ -43,5 +43,4 @@ Population census count of various named
 R.W. Oldford
 }
 \keyword{census}
-\keyword{data}
 \keyword{population}

@@ -1,7 +1,7 @@
 Package: loon.data
 Type: Package
 Title: Data Used to Illustrate 'Loon' Functionality
-Version: 0.0.6
+Version: 0.0.7
 Authors@R: c(
     person("R. Wayne", "Oldford", , "rwoldford@uwaterloo.ca", role =  c("aut", "cre")),
     person("Adrian", "Waddell", , "adrian@waddell.ch", role = "aut")

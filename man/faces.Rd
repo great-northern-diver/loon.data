@@ -4,7 +4,8 @@
 \name{faces}
 \alias{faces}
 \title{Olivetti Faces}
-\format{Data frame with one image per column.}
+\format{Data frame with 400 variables (one image per variable) and 4,096 rows
+(the greyscale values of a 64x64 image).}
 \source{
 \url{http://www.cs.nyu.edu/~roweis/data.html}
 }
@@ -16,4 +17,7 @@ Grayscale faces 8 bit [0-255], a few images of several different people.
 
 From the Olivetti database at ATT.
 }
-\keyword{data}
+\seealso{
+\code{\link{frey}}, \code{\link{ordfrey}}
+}
+\keyword{images}

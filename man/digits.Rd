@@ -23,4 +23,7 @@ Each is an 8-bit 16x16 grayscale image of a single digit;
 
 1100 examples of each class.
 }
-\keyword{data}
+\seealso{
+binaryalphadigits
+}
+\keyword{images}

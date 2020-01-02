@@ -15,4 +15,7 @@ Dissimilarity object of class 'isomap' for Frey Faces data, created with:
 
 Introduced simply to cache the results of this step so as to speed up demos.
 }
-\keyword{data}
+\seealso{
+\code{\link{frey}}
+}
+\keyword{images}

@@ -1,0 +1,110 @@
+#' @title South African Heart Disease Data
+#'
+#' @description  From the web source: 
+#' "A retrospective sample of males in a heart-disease high-risk region 
+#' of the Western Cape, South Africa. There are roughly two controls per case of CHD. 
+#' Many of the CHD positive men have undergone blood pressure reduction treatment 
+#' and other programs to reduce their risk factors after their CHD event. 
+#' In some cases the measurements were made after these treatments."
+#' 
+#' The data are packaged here from the source (below).  With one significant change 
+#' (making chd a factor) they are also a repackaging of the data of the same name
+#' from the now archived (in 2020) of the 2015 `ElemStatLearn` package of Kjetil B. Halvorsen.
+#' 
+#' @format A data frame with 462 rows and 10 variables
+#' \describe{
+#'  \item{sbp}{Systolic blood pressure in millimetres of mercury (mm Hg).}
+#'  \item{tobacco}{Cumulative tobacco use in kilograms. 
+#'                Appears to be lifetime cumulative; not annual.}
+#'  \item{ldl}{Low density lipoprotein cholesterol.}
+#'  \item{adiposity}{Not recorded in source; 
+#'       presumably another measurement of obesity similar to BMI. 
+#'       Possibly a "corrected" version of obesity measure.}
+#'  \item{famhist}{Factor indicating presence or absence of a family history 
+#'                 of ischaemic heart disease.}
+#'  \item{typea}{Type-A coronary prone personality behaviour as measured by
+#'               a self-administered Bortner Short Rating Scale.  Possible total
+#'               scores can range from 12 to 84.  Rossouw et al. (1983) "arbitrarily" 
+#'               classify those with scores of 55 or more "as exhibiting type A behaviour."}
+#'  \item{obesity}{A measure of obesity; body mass index (or BMI) is consistent with Rossouw et al. (1983).
+#'                 Having BMI >= 30 scored as "obese" by Rossouw et al. (1983).}
+#'  \item{alcohol}{Current alcohol consumption.  Units of measurement (quantity/time) 
+#'                 are unclear (e.g litres per annum, ounces per month?);
+#'                 alcohol not mentioned in Rossouw et al. (1983).}
+#'  \item{age}{Age in years at time of study (Source web page: `Age at onset'.)}
+#'  \item{chd}{The response, a factor identifying whether the subject 
+#'             had been diagnosed as having coronary heart disease or not.}
+#' }
+#' 
+#' The row order of the values follow their order of appearence in the source webpage.
+#' 
+#' @details 
+#'  
+#' In the late 1970s, an unusually high incidence of ischaemic heart disease had been 
+#' observed to exist amongst white Afrikaans-speaking segments of 
+#' South African society (Wyndham, 1982). 
+#' Using an intensive postal campaign in 1979, Rossouw et al. (1983) recruited about 82% of the 
+#' known target population of inhabitants of three Afrikaner communities in the 
+#' southwestern Cape Province (3,357 white males and 3,831 white females).
+#'    
+#' For each subject, the binary response "chd" (originally appearing in the original file
+#' as 1 if they had coronary heart disease and 0 otherwise; but now as "Yes" or "No") 
+#' was determined in the survey together with a variety of known risk factors for heart disease. 
+#' 
+#' The goal was to explore the prevalence and intensity of chd risk factors 
+#' in these high incidence communities with particular attention to those major risk factors 
+#' (e.g. hypercholestrolaemia, hypertension, and smoking) which might be considered 
+#' reversible (Rossouw et al., 1983).
+#' 
+#' Hastie and Tibshirani (1987) selected a subset of 465 subjects from the 3,357 white males
+#' (in these communities, male mortality rates were about two and a half times 
+#'  that of the females; see Rossouw et al., 1983).
+#' The 465 subjects consisted of all 162 cases having had coronary heart disease as well as 
+#' 303 controls sampled from the remaining set of survey subjects. 
+#' 
+#' The same (or similar) data seems to be used again for illustration in Hastie, Tibshirani, and 
+#' Friedman (2009) and it is that which is now ported here from the book's accompanying website 
+#' (see source).
+#' Curiously, this data set (viz. that recorded here) contains values on only 462 subjects, 
+#' of which now only 160 are cases and 302 are controls. 
+#' 
+#' In the current data set, rows 1-261 have
+#' row numbers matching the source "row.name", thereafter the row number is one less than
+#' the source "row.name". It would appear that subject with "row.name" 262 is absent from
+#' the source (below) and, speculatively, perhaps also those whose "row.name" could have 
+#' been 464 and 465.
+#' 
+#' See references, particularly Rossouw et al (1983), for more details.
+#' 
+#' 
+#' @docType data
+#' 
+#' @name SAheart
+#' 
+#' @keywords case-control
+#' 
+#' @author 
+#' R.W. Oldford
+#' 
+#' 
+#' @references
+#'   
+#'   Trevor Hastie and Robert Tibshirani (1987) 
+#'   "Non-parametric logistic and proportional odds regression", 
+#'   JRSS-C (Applied Statistics), 36(3), 260–276.
+#'   
+#'   Trevor Hastie, Robert Tibshirani, and Jerome Friedman (2009) 
+#'   "The Elements of Statistical Learning", 2nd Edition, Springer New York
+#'   DOI: 10.1007/978-0-387-84858-7
+#'   
+#'   J.E. Rossouw, J.P.D. Plessis, A.J.S. Benad\'{e}, P.C.J. Jordaan, 
+#'   J.P. Kotz\'{e}, P.L. Jooste, and J.J. Ferreira (1983)
+#'   "Coronary risk factor screening in three rural communities: The CORIS baseline study". 
+#'   South African Medical Journal, 64, 430-436.
+#'   
+#'   C. Wyndham (1982) "Trends with time of cardiovascular mortality rates in the 
+#'   populations of the RSA for the period 1968-1977", South African Medical Journal, 61, 987-993.
+#'  
+#' @source 
+#' \url{https://web.stanford.edu/~hastie/ElemStatLearn/}  
+NULL

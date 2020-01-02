@@ -20,5 +20,6 @@
 #' @name digits
 #' @docType data
 #' @source \url{http://www.cs.nyu.edu/~roweis/data.html}
-#' @keywords data
+#' @seealso binaryalphadigits
+#' @keywords images
 NULL
