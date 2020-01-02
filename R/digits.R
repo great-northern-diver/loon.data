@@ -21,5 +21,5 @@
 #' @docType data
 #' @source \url{http://www.cs.nyu.edu/~roweis/data.html}
 #' @seealso binaryalphadigits
-#' @keywords data, images
+#' @keywords images
 NULL

@@ -20,5 +20,4 @@ From the Olivetti database at ATT.
 \seealso{
 \code{\link{frey}}, \code{\link{ordfrey}}
 }
-\keyword{data,}
 \keyword{images}

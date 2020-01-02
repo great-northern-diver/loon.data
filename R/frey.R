@@ -8,6 +8,6 @@
 #' @format Data frame with 1,965 variables (one image per column) and 560 rows 
 #' (the 560 greyscale values of a 20x28 image).
 #' @source \url{http://www.cs.nyu.edu/~roweis/data.html}
-#' @keywords data, images
+#' @keywords images
 #' @seealso \code{\link{ordfrey}}, \code{\link{faces}}
 NULL

@@ -102,12 +102,4 @@ Trevor Hastie and Robert Tibshirani (1987)
 \author{
 R.W. Oldford
 }
-\keyword{Africa,}
-\keyword{South}
 \keyword{case-control}
-\keyword{coronary}
-\keyword{disease,}
-\keyword{factors,}
-\keyword{heart}
-\keyword{risk}
-\keyword{study}

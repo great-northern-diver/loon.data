@@ -18,5 +18,4 @@ Introduced simply to cache the results of this step so as to speed up demos.
 \seealso{
 \code{\link{frey}}
 }
-\keyword{data,}
 \keyword{images}

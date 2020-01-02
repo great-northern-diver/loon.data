@@ -12,5 +12,5 @@
 #' @seealso \code{\link{ordalphadigits}}
 #' @references From Simon Lucas' (sml@essex.ac.uk), Algoval system. 
 #' @source \url{http://www.cs.nyu.edu/~roweis/data.html}
-#' @keywords data, images
+#' @keywords images
 NULL

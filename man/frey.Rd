@@ -16,5 +16,4 @@ sequential frames of a small video. Image size: 20x28.
 \seealso{
 \code{\link{ordfrey}}, \code{\link{faces}}
 }
-\keyword{data,}
 \keyword{images}

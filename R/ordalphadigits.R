@@ -14,5 +14,5 @@
 #' 
 #' @format Object of class 'isomap'.
 #' @seealso \code{\link{binaryalphadigits}}
-#' @keywords data, images
+#' @keywords images
 NULL

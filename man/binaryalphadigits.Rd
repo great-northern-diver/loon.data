@@ -19,5 +19,4 @@ From Simon Lucas' (sml@essex.ac.uk), Algoval system.
 \seealso{
 \code{\link{ordalphadigits}}
 }
-\keyword{data,}
 \keyword{images}

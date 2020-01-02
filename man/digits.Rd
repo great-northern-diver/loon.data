@@ -26,5 +26,4 @@ Each is an 8-bit 16x16 grayscale image of a single digit;
 \seealso{
 binaryalphadigits
 }
-\keyword{data,}
 \keyword{images}

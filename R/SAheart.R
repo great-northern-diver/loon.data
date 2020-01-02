@@ -81,7 +81,7 @@
 #' 
 #' @name SAheart
 #' 
-#' @keywords coronary heart disease, risk factors, South Africa, case-control study
+#' @keywords case-control
 #' 
 #' @author 
 #' R.W. Oldford

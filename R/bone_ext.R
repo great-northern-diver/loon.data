@@ -56,7 +56,7 @@
 #' 
 #' @seealso \code{\link{bone}}
 #' 
-#' @keywords bone mineral density, adolescents
+#' @keywords bone mineral density
 #' 
 #' @author 
 #' R.W. Oldford

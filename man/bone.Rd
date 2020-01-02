@@ -94,7 +94,6 @@ Laura K. Bachrach, Trevor Hastie, May-Choo Wang, Balasubramanian Narasimhan, and
 \author{
 R.W. Oldford
 }
-\keyword{adolescents}
 \keyword{bone}
-\keyword{density,}
+\keyword{density}
 \keyword{mineral}
