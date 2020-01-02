@@ -13,7 +13,7 @@
  \item{rspnbmd}{Relative spinal bone mineral density measurement. 
  Each value is the (unitless) difference in \code{spnbmd}` taken on two 
  consecutive visits, divided by the average of the two measurements.}
- \item{ethnic}{The "ethnicity" of the subject.  A factor with levels 
+ \item{ethnic}{The "ethnicity/race" of the subject.  A factor with levels 
                "Asian", "Black", "Hispanic", and "White".}
 }
 

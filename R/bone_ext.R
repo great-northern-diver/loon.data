@@ -7,7 +7,7 @@
 #' @format A data frame with 1003 rows and 5 variables
 #' \describe{
 #'  \item{idnum}{Identifies the subject, and hence the repeat measurements}
-#'  \item{ethnic}{The "ethnicity" of the subject.  A factor with levels 
+#'  \item{ethnic}{The "ethnicity/race" of the subject.  A factor with levels 
 #'                "Asian", "Black", "Hispanic", and "White".}
 #'  \item{age}{The age in years of the subject at the time the measurement \code{spnbmd} was taken.}
 #'  \item{sex}{Sex of the subject.  A factor with levels "female" and "male".}
