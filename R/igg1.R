@@ -53,9 +53,11 @@
 #' 
 #' @docType data
 #' 
+#' @seealso \code{\link{elements}} \code{\link{SCmolecule}}
+#' 
 #' @name igg1
 #' 
-#' @keywords data molecule 3D antibody
+#' @keywords data molecule 3D antibody atom
 #' 
 #' @author R.W. Oldford
 #' 
