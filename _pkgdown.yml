@@ -24,7 +24,9 @@ reference:
     - faces
     - frey
     - ordfrey
+    - elements
     - igg1
+    - SCmolecule
     - lightspeeds
     - michelson_1879
     - minority

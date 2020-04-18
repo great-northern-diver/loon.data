@@ -1,3 +1,10 @@
+
+# loon.data 0.0.8
+
+* added the protein/DNA complex `SCmolecule`  from Baker's Yeast (Saccharomyces Cerevisiae) from PDB 1d66
+
+* added `elements` containing a variety of information on the first 118 elements from the periodic table.
+
 # loon.data 0.0.7
 
 * Added and documented datasets that had previously been used from the package `ElemStatLearn` since it has been orphaned and as of 2020 archived.

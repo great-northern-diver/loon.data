@@ -1,0 +1,115 @@
+#' @title A protein/DNA complex molecule from Saccharomyces Cerevisiae
+#'
+#' @description Contains three dimensional structure of the 
+#' GAL4 protein of Saccharomyces Cerevisiae (or Baker's Yeast) 
+#' recognizing and binding to a Deoxyribonucleic acid (DNA) sequence.
+#' 
+#' There are effectively two molecules here (a protein and DNA) binding together.
+#' It is a transcription/DNA complex within Saccharomyces Cerevisiae.
+#' 
+#' From Marmorstein et al (1992): 
+#' 
+#' "The yeast protein GAL4 activates transcription of genes
+#'  required for catabolism of galactose and melibiose.
+#'  The DNA sequences recognized by GAL4 are 17 base pairs (bp) 
+#'  in length and each site binds a dimer of the protein."
+#'  
+#'  and
+#'  
+#'  "The protein fragment binds to its DNA site as a symmetrical dimer. 
+#'  Each subunit folds into three distinct modules: 
+#'  a compact, metal-binding domain (residues 8-40), 
+#'  an extended linker (41-49), 
+#'  and an a-helical dimerization element ( 50-64). 
+#'  Residues 1-7 and 65-66 are disordered. An overall view of the complex 
+#'  shows that a large part of the DNA major groove is not contacted by the protein. 
+#'  The DNA is relatively straight. A metal domain lies in the major
+#'  groove near each end of the DNA fragment. The paired parallel
+#'  helices of the dimerization element project away from the DNA
+#'  along the 2-fold axis of the complex. The metal-binding domain
+#'  contacts three DNA base pairs in the major groove, and we
+#'  therefore refer to it as a `recognition module.' ...
+#'  
+#'  The recognition module is held together by two metal ions, 
+#'  tetrahedrally coordinated by the six cysteines. 
+#'  Two of the cysteines (11 and 28) ligate both metals, 
+#'  creating a `binuclear cluster' ... "
+#'  
+#' See Marmorstein et al (1992) for more on the geometry.
+#'  
+#' The source of most data here is Protein Data Bank (PDB) entry 1d66.
+#'  
+#' All coordinates, chains, residues, backbone atom identities, and displacements are
+#' taken from the PDB entry. Not included here are those entries from the PDB record
+#' which simply identify the terminus of each of the chains D, E, A, and B.
+#' Each of these `TER` entries contain no coordinates since it simply marks the 
+#' end of its chain.
+#' 
+#' Values were determined by X-ray crystallography at 2.7 Angstrom resolution.
+#'
+#' These values have been supplemented with variable values from a variety of sources
+#' so as to help in the identification of components of the molecular structure.
+#'
+#' @format A data frame with 1762 rows and 14 variates:
+#'  \describe{
+#'  \item{group}{One of `ATOM` or  `HETATM`.
+#'  Here `ATOM` indicates an atom having a standard residue
+#'  of the protein; `HETATM` (hetero atom) indicates one either
+#'  having a non-standard residue of protein, or one in a group of a different kind
+#'  such as carbohydrates, substrates, ligands, solvent, or metal ions. In
+#'  the `SCmolecule`, these will be either a water molecule `HOH` or a Cadmium ion `CD`. 
+#'  }
+#'  \item{id}{Identification number of the backbone atom as given in the protein data bank (PDB).}
+#'  \item{label}{Atom identifier.  These follow a standard used by the PDB.
+#'  The first character is the element abbreviation of the backbone atom.  
+#'  The remaining characters of the nomenclature identify which of the atoms of that type are being
+#'  referred to in the structure.}
+#'  \item{residue}{A two or three letter abbreviation naming the residue attached to that atom.}
+#'  \item{chain}{Identifies a chain of atoms. These are polypeptide or DNA chains.}
+#'  \item{sequence}{Order in which that bakbone atom appears in its chain.}
+#'  \item{x, y, z}{Coordinates of the bakbone atom in three-dimensonal space.}
+#'  \item{displacement}{Equivalent isotropic displacement factor; also sometimes earlier called a temperature
+#'  factor.  It is a measure of the possible coordinate location displacement of an atom from any source.
+#'  Displacements could arise, for example, from atomic vibrations, 
+#'  such as (large) molecular motion or (smaller) internal vibrations, 
+#'  or any of a variety of sources of disorder.
+#'  This is recorded as a spherical Gaussian (isotropic) measure of the variability 
+#'  of the location by the average eigen-value of a variance-covariance matrix.}
+#'  \item{type}{The element symbol of the backbone atom.}
+#'  \item{mass}{Atomic mass of the backbone atom.}
+#'  \item{residueType}{Type of the residue.}
+#'  \item{residueName}{Full name of the residue.}
+#' }
+#' 
+#' @docType data
+#' 
+#' @seealso \code{\link{elements}} \code{\link{igg1}}
+#' 
+#' @name SCmolecule
+#'  
+#' @keywords data molecule 3D atom
+#' 
+#' @author R.W. Oldford
+#' 
+#' @references
+#'
+#' Ronen Marmorstein, Michael Carey, Mark Ptashne, and Stephen C. Harrison (1992)
+#' "DNA recognition by GAL4: structure of a protein-DNA complex", Nature, 356, pp. 408-414.
+#' 
+#' John L. Markley, Ad Bax, Yoji Arata, C. W. Hilbers, Robert Kaptein, 
+#' Brian D. Syke, Peter E. Wright, and Kurt Wuthrich (1998)
+#' "Recommendations for the presentation of NMR structures of proteins and nucleic acids", 
+#' European Journal of Biochemistry, 256, pp. 1-15.
+#'
+#' Reinhard X. Fischer and Ekkehart Tilmanns (1988) 
+#' "The equivalent isotropic displacement factor",
+#' Acta Crystallographica C44, pp. 775-776.
+#' 
+#' K.N. Truebloof, H.-B. Burgi, H. Burzlaff, J.D. Dunitz, 
+#' C.M. Gramaccioli, H.H. Schulz, U. Shmueli, and S.C. Abrahams (1996)
+#' "Atomic displacement parameter nomenclature"
+#' Acta Crystallographica A52, pp. 770-781.
+#' 
+#' 
+#' @source \url{https://www.rcsb.org/3d-view/1D66/}. \url{https://bioinformatics.org/firstglance/fgij/fg.htm?mol=1d66}
+NULL
