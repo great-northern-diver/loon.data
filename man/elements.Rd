@@ -4,18 +4,23 @@
 \name{elements}
 \alias{elements}
 \title{The first 118 chemical elements}
-\format{A data frame with 118 rows and 14 variates:
+\format{A data frame with 118 rows and 17 variates:
  \describe{
- \item{Number}{The atomic number.}
+ \item{Number}{The atomic number.  The number of protons found the nucleus of every atom of the element.
+       It is the (positive) charge number of the element's nuucleus.}
  \item{Symbol}{One or two letter atomic symbol for the element.}
  \item{Name}{Name of the element.}
- \item{Group}{The column in the periodic table where this element appears.}
- \item{Period}{The row in the periodic table where this element appears.}
+ \item{Group}{Identifies elements having similar chemical behaviours. 
+             For most elements, the column in the periodic table is identical to the group.}
+ \item{Period}{Period identify a collection of elements of sequential mass typically from metals to nonmetals.
+               For most elements, period identifies its row in a periodic table.}
  \item{Mass}{Relative atomic mass or atomic weight. 
       It is a dimensionless physical quantity defined 
       as the ratio of the average mass of atoms of a chemical element
       in a given sample to the atomic mass constant. 
-      Measurements are in unified atomic mass units or Daltons.}
+      Measurements are in unified atomic mass units or Daltons.
+      Expressed in these units, it is within 1 percent of the mass number.}
+ \item{Mass_number}{Total number of protons and neutrons in the atomic nucleus.}
  \item{Density}{Element density in grams per cubic centimetre. }
  \item{Melting_point}{Temperature in degrees Kelvin at which the 
        element changes state from solid to liquid.
@@ -37,6 +42,8 @@
                  metal - metalloid - nonmetal categorization.}
  \item{Subcategory}{Identifies the subcategory of the element on the
                  metal - metalloid - nonmetal categorization.}
+ \item{x}{The geometric horizontal position in the periodic table where this element appears.}
+ \item{y}{The geometric vertical position in the periodic table where this element appears.}
 }}
 \source{
 Data extracted from Wikipedia's "List of chemical elements" \url{https://en.wikipedia.org/wiki/List_of_chemical_elements} (April 17, 2020).

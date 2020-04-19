@@ -139,17 +139,22 @@ atomic weights are available).  See the source for more detail.</p>
 
     <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
 
-    <p>A data frame with 118 rows and 14 variates:</p><dl class='dl-horizontal'>
- <dt>Number</dt><dd><p>The atomic number.</p></dd>
+    <p>A data frame with 118 rows and 17 variates:</p><dl class='dl-horizontal'>
+ <dt>Number</dt><dd><p>The atomic number.  The number of protons found the nucleus of every atom of the element.
+       It is the (positive) charge number of the element's nuucleus.</p></dd>
  <dt>Symbol</dt><dd><p>One or two letter atomic symbol for the element.</p></dd>
  <dt>Name</dt><dd><p>Name of the element.</p></dd>
- <dt>Group</dt><dd><p>The column in the periodic table where this element appears.</p></dd>
- <dt>Period</dt><dd><p>The row in the periodic table where this element appears.</p></dd>
+ <dt>Group</dt><dd><p>Identifies elements having similar chemical behaviours. 
+             For most elements, the column in the periodic table is identical to the group.</p></dd>
+ <dt>Period</dt><dd><p>Period identify a collection of elements of sequential mass typically from metals to nonmetals.
+               For most elements, period identifies its row in a periodic table.</p></dd>
  <dt>Mass</dt><dd><p>Relative atomic mass or atomic weight. 
       It is a dimensionless physical quantity defined 
       as the ratio of the average mass of atoms of a chemical element
       in a given sample to the atomic mass constant. 
-      Measurements are in unified atomic mass units or Daltons.</p></dd>
+      Measurements are in unified atomic mass units or Daltons.
+      Expressed in these units, it is within 1 percent of the mass number.</p></dd>
+ <dt>Mass_number</dt><dd><p>Total number of protons and neutrons in the atomic nucleus.</p></dd>
  <dt>Density</dt><dd><p>Element density in grams per cubic centimetre.</p></dd>
  <dt>Melting_point</dt><dd><p>Temperature in degrees Kelvin at which the 
        element changes state from solid to liquid.
@@ -171,6 +176,8 @@ atomic weights are available).  See the source for more detail.</p>
                  metal - metalloid - nonmetal categorization.</p></dd>
  <dt>Subcategory</dt><dd><p>Identifies the subcategory of the element on the
                  metal - metalloid - nonmetal categorization.</p></dd>
+ <dt>x</dt><dd><p>The geometric horizontal position in the periodic table where this element appears.</p></dd>
+ <dt>y</dt><dd><p>The geometric vertical position in the periodic table where this element appears.</p></dd>
 
 </dl>
     <h2 class="hasAnchor" id="source"><a class="anchor" href="#source"></a>Source</h2>
