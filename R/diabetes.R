@@ -60,7 +60,7 @@
 #' 
 #' @name diabetes
 #' 
-#' @keywords medical
+#' @keywords medical Andrews-Herzberg
 #' 
 #' @author 
 #' R.W. Oldford

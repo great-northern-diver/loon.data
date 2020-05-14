@@ -56,5 +56,5 @@
 #'   Portland, OR: 
 #'   U.S. Department of Agriculture, Forest Service, Pacific Northwest Research Station. 42 p
 #'
-#' @keywords biomass
+#' @keywords biomass nature forestry
 NULL
