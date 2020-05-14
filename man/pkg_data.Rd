@@ -20,7 +20,7 @@ to return basic information on datasets in package.
 No data are loaded by the call.
 }
 \examples{
-pkg_data("loon.data")
+head(pkg_data("loon.data"))
 }
 \seealso{
 data

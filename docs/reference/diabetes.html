@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Human immunoglobulin G1 antibody molecule — igg1 • loon.data</title>
+<title>Diabetes Data from Andrews and Herzberg — diabetes • loon.data</title>
 
 <!-- favicons -->
 <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
@@ -46,35 +46,11 @@
 
 
 
-<meta property="og:title" content="Human immunoglobulin G1 antibody molecule — igg1" />
-<meta property="og:description" content="Human immunoglobulin G1 is an antibody molecule of
-10,401 atoms.  The great bulk of these form residues attached
-to 1,556 alpha carbons (alpha refers to the first carbon
-that attaches to a functional group).
-In this protein molecule, the functional groups called
-residues are either amino acids or carbohydrates (sugar molecules).
-On the geometry of this protein, from Padlan (1994, p. 172):
-&quot;An antibody molecule is composed of three major
-fragments: the two Fabs, which are identical and each
-of which contains the light chain and the first two
-domains of the heavy chain, and the Fc, which contains
-the C-terminal constant domains of the two heavy chains.
-The Fabs are linked to the Fc by the hinge
-region, which varies in length and flexibility in the
-different antibody classes and isotypes. The antigen binding
-sites (paratopes) are located at the tips of the Fabs.&quot;
-Full names for amino acid residues and group characteristics
-were taken from the commercial website www.tocris.com.
-The data records all 1,556 alpha carbons, their residues,
-which of five separate chains each carbon belongs to,
-and the geometric location given by coordinates
-x, y, and z as determined by X-ray crystallography and as available
-to Padlan (1994) either from the Protein Data Bank or or
-from original investigators at the time of publication.
-From the source website: &quot;It is a composite model built from F(ab)2
-fragments from Brookhaven file 2IG2.PDB, and an Fc fragment from
-Brookhaven file 1FC2.PDB. Part of the hinge region and other details
-are theoretically modeled.&quot;" />
+<meta property="og:title" content="Diabetes Data from Andrews and Herzberg — diabetes" />
+<meta property="og:description" content="Data  on 145 non-obese patients collected at the Stanford Clinical Reseach Center to investigate &quot;the relationship between
+chemical subclinical and overt nonketotic diabetes.  The three primary variables used in the analysis and  presented [here] are glucose intolerance, insulin response
+ to oral glucose, and insulin resistance.&quot;
+From Andrews and Herzberg (1985) book called &quot;Data&quot;. See reference." />
 <meta property="og:image" content="/logo.png" />
 
 
@@ -146,78 +122,72 @@ are theoretically modeled.&quot;" />
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>Human immunoglobulin G1 antibody molecule</h1>
+    <h1>Diabetes Data from Andrews and Herzberg</h1>
     
-    <div class="hidden name"><code>igg1.Rd</code></div>
+    <div class="hidden name"><code>diabetes.Rd</code></div>
     </div>
 
     <div class="ref-description">
-    <p>Human immunoglobulin G1 is an antibody molecule of
-10,401 atoms.  The great bulk of these form residues attached
-to 1,556 alpha carbons (alpha refers to the first carbon
-that attaches to a functional group).
-In this protein molecule, the functional groups called
-residues are either amino acids or carbohydrates (sugar molecules).</p>
-<p>On the geometry of this protein, from Padlan (1994, p. 172):
-"An antibody molecule is composed of three major
-fragments: the two Fabs, which are identical and each
-of which contains the light chain and the first two
-domains of the heavy chain, and the Fc, which contains
-the C-terminal constant domains of the two heavy chains.
-The Fabs are linked to the Fc by the hinge
-region, which varies in length and flexibility in the
-different antibody classes and isotypes. The antigen binding
-sites (paratopes) are located at the tips of the Fabs."</p>
-<p>Full names for amino acid residues and group characteristics
-were taken from the commercial website www.tocris.com.</p>
-<p>The data records all 1,556 alpha carbons, their residues,
-which of five separate chains each carbon belongs to,
-and the geometric location given by coordinates
-x, y, and z as determined by X-ray crystallography and as available
-to Padlan (1994) either from the Protein Data Bank or or
-from original investigators at the time of publication.</p>
-<p>From the source website: "It is a composite model built from F(ab)2
-fragments from Brookhaven file 2IG2.PDB, and an Fc fragment from
-Brookhaven file 1FC2.PDB. Part of the hinge region and other details
-are theoretically modeled."</p>
+    <p>Data  on 145 non-obese patients collected at the Stanford Clinical Reseach Center to investigate "the relationship between
+chemical subclinical and overt nonketotic diabetes.  The three primary variables used in the analysis and  presented [here] are glucose intolerance, insulin response
+ to oral glucose, and insulin resistance."</p>
+<p>From Andrews and Herzberg (1985) book called "Data". See reference.</p>
     </div>
 
 
 
     <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
 
-    <p>A data frame with 1556 rows and 10 variates:</p><dl'>
- <dt>recordType</dt><dd><p>Either `ATOM` or `HETATM`.
- Here `ATOM` indicates an atom having a standard residue
- of the protein; `HETATM` (hetero atom) indicates one either
- having a non-standard residue of protein, or one in a group of a different kind
- such as carbohydrates, substrates, ligands, solvent, or metal ions. In
- the igg1 molecule, these will be a part of some carbohydrate.</p></dd>
- <dt>name</dt><dd><p>Name of the alpha carbon atom.</p></dd>
- <dt>residue</dt><dd><p>The three letter abbreviated name of the residue.</p></dd>
- <dt>chainID</dt><dd><p>Chains H and I (heavy), residues 1-452 each; Chains L, and M (light), residues 501-716; Chain C (carbohydate), residues 1-9, 10-18.</p></dd>
- <dt>residueSequenceNum</dt><dd><p>Order in which that carbon atom appears in its chain.</p></dd>
- <dt>x, y, z</dt><dd><p>Coordinates of the carbon atom in three-dimensonal space.</p></dd>
- <dt>residueName</dt><dd><p>Full name of the residue.</p></dd>
- <dt>group</dt><dd><p>A group characteristic for that residue.</p></dd>
+    <p>A data frame with 145 rows and 6 variables</p><dl'>
+ <dt>RelativeWeight</dt><dd><p>The relative weight of the patient.</p></dd>
+ <dt>FastingPlasmaGlucose</dt><dd><p>The fasting plasma glucose level.</p></dd>
+ <dt>GlucoseArea</dt><dd><p>This is a measurement of the glucose intolerance as measured by the area under the straightline
+  connecting glucose levels determined from blood samples drawn during a three hour
+  glucose tolerance test following an oral administration of a glucose load.</p></dd>
+ <dt>InsulinArea</dt><dd><p>This is a measurement of the insulin response
+ to oral glucose as measured by the area under the straightline
+  connecting insulin levels, again determined from blood samples drawn during a three hour
+  glucose tolerance test following an oral administration of a glucose load.</p></dd>
+ <dt>SSPG</dt><dd><p>The steady state plasma glucose (SSPG) determined  after chemical suppression 
+ of endogenous insulin secretion. This is a measure of insulin resistance.</p></dd>
+ <dt>ClinClass</dt><dd><p>Clinical classification of each patient, by the contemporary (1979) medical criteria,
+ into one of three groups: "Overt" diabetic,  "Chemical" diabetic, or  "Normal".</p></dd>
 
 </dl>
 
+<p>The row order of the values match the "Patient Number" given in the source table.</p>
     <h2 class="hasAnchor" id="source"><a class="anchor" href="#source"></a>Source</h2>
 
-    <p><a href='https://www.umass.edu/microbio/rasmol/padlan.htm'>https://www.umass.edu/microbio/rasmol/padlan.htm</a>
-<a href='https://www.tocris.com/resources/peptide-nomenclature-guide'>https://www.tocris.com/resources/peptide-nomenclature-guide</a></p>
+    <p><a href='https://doi.org/10.1007/978-1-4612-5098-2'>https://doi.org/10.1007/978-1-4612-5098-2</a></p>
+    <h2 class="hasAnchor" id="details"><a class="anchor" href="#details"></a>Details</h2>
+
+    <p>This is a dataset from the "Data" book by Andrews and Herzberg (1985) Chapter 36, pp. 215-220  Table 36.1</p> 
+<p>A more complete description can be found there. An extract from the source follows.</p>
+<p>The purpose of the data was to investigate</p> 
+<p>"the relationship between chemical subclinical
+  and overt nonketotic diabetes in 145 non-obese
+  adult subjects.
+  The three primary variables used in the analysis and
+  presented [here] are glucose intolerance, insulin response
+  to oral glucose, and insulin resistance.  The first two
+  [of these] variables are the areas under the straightline
+  connecting glucose and insulin levels, respectively,
+  determined from blood samples drawn during a three hour
+  glucose tolerance test following an oral administration
+  of a glucose load. [These are variables GlucoseArea and
+  InsulinArea, respectively.] Insulin resistance is measured
+  by the steady state plasma glucose (SSPG) determined
+  afterchemical suppression of endogenous insulin secretion.
+  In addition, the relative weight and fasting plasma
+  glucose were measured for each individual at the Stanford
+  Clinical Reseach Center and are included [here]"</p>
+<p>Each row of diabetes is a patient, and the row number
+ is the "Patient Number" from Andrews and Herzberg.</p>
     <h2 class="hasAnchor" id="references"><a class="anchor" href="#references"></a>References</h2>
 
-    <p>Eduardo A. Padlan (1994) "Anatomy of the Antibody Molecule",
-Molecular Immunology, 31, Issue 3, pp. 169 - 217.</p>
-<p>Lisa J. Harris, Steven B. Larson, Karl W. Hasel,
-John Day, Aaron Greenwood and Alexander McPherson (1992)
-"The three-dimensional structure of an intact monoclonal
-antibody for canine lymphoma", Nature, 360, pp. 369-372.</p>
-    <h2 class="hasAnchor" id="see-also"><a class="anchor" href="#see-also"></a>See also</h2>
-
-    <div class='dont-index'><p><code><a href='elements.html'>elements</a></code> <code><a href='SCmolecule.html'>SCmolecule</a></code></p></div>
+    <p>David F. Andrews and Agnes M. Herzberg (1985) 
+  "Data: A Collection of Problems from Many Fields for the Student and Research Worker", 
+  Springer, New York. DOI:10.1007/978-1-4612-5098-2</p>
 
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">

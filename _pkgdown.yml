@@ -12,29 +12,54 @@ development:
 
 
 reference:
-  - title: Data
-    desc:  Data in the package
+
+  - title: Functions
+    desc:  Help find data
     contents:
-    - alaska_forest
+    - pkg_data
+    
+  - title: Data
+    
+  - subtitle: Chemistry
+    desc: Chemical data
+    contents:
+    - elements
+    - igg1
+    - SCmolecule
+    
+  - subtitle: Images
+    desc: Image data
+    contents:
     - binaryalphadigits
-    - bone
-    - bone_ext
-    - diabetes
-    - SAheart
     - ordalphadigits
     - digits
     - faces
     - frey
     - ordfrey
-    - elements
-    - igg1
-    - SCmolecule
-    - lepto
-    - crabSpecies
+    
+  - subtitle: Physics
+    desc: Physical data
+    contents:
     - lightspeeds
     - michelson_1879
-    - minority
-  - title: Functions
-    desc:  Help find data
+    
+  - subtitle: Medicine
+    desc: Medical data
     contents:
-    - pkg_data
+    - bone
+    - bone_ext
+    - diabetes
+    - SAheart
+   
+  - subtitle: Nature
+    desc: Living world data
+    contents:
+    - alaska_forest
+    - lepto
+    - crabSpecies
+    
+  - subtitle: Society
+    desc: Social science data
+    contents:
+    - minority
+    

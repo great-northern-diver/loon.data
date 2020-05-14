@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Human immunoglobulin G1 antibody molecule — igg1 • loon.data</title>
+<title>Colour and Sex of Rock Crabs — crabSpecies • loon.data</title>
 
 <!-- favicons -->
 <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
@@ -46,35 +46,10 @@
 
 
 
-<meta property="og:title" content="Human immunoglobulin G1 antibody molecule — igg1" />
-<meta property="og:description" content="Human immunoglobulin G1 is an antibody molecule of
-10,401 atoms.  The great bulk of these form residues attached
-to 1,556 alpha carbons (alpha refers to the first carbon
-that attaches to a functional group).
-In this protein molecule, the functional groups called
-residues are either amino acids or carbohydrates (sugar molecules).
-On the geometry of this protein, from Padlan (1994, p. 172):
-&quot;An antibody molecule is composed of three major
-fragments: the two Fabs, which are identical and each
-of which contains the light chain and the first two
-domains of the heavy chain, and the Fc, which contains
-the C-terminal constant domains of the two heavy chains.
-The Fabs are linked to the Fc by the hinge
-region, which varies in length and flexibility in the
-different antibody classes and isotypes. The antigen binding
-sites (paratopes) are located at the tips of the Fabs.&quot;
-Full names for amino acid residues and group characteristics
-were taken from the commercial website www.tocris.com.
-The data records all 1,556 alpha carbons, their residues,
-which of five separate chains each carbon belongs to,
-and the geometric location given by coordinates
-x, y, and z as determined by X-ray crystallography and as available
-to Padlan (1994) either from the Protein Data Bank or or
-from original investigators at the time of publication.
-From the source website: &quot;It is a composite model built from F(ab)2
-fragments from Brookhaven file 2IG2.PDB, and an Fc fragment from
-Brookhaven file 1FC2.PDB. Part of the hinge region and other details
-are theoretically modeled.&quot;" />
+<meta property="og:title" content="Colour and Sex of Rock Crabs — crabSpecies" />
+<meta property="og:description" content="A sample of 200 rock crabs (Leptograpsus variegatus) found in the southern subtropical Pacific Ocean.
+These are small sea crabs that grow at most to about 50 millimetres of shell width.
+The data contain the sex and species of each crab as determined by the researchers (see references)." />
 <meta property="og:image" content="/logo.png" />
 
 
@@ -146,78 +121,47 @@ are theoretically modeled.&quot;" />
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>Human immunoglobulin G1 antibody molecule</h1>
+    <h1>Colour and Sex of Rock Crabs</h1>
     
-    <div class="hidden name"><code>igg1.Rd</code></div>
+    <div class="hidden name"><code>crabSpecies.Rd</code></div>
     </div>
 
     <div class="ref-description">
-    <p>Human immunoglobulin G1 is an antibody molecule of
-10,401 atoms.  The great bulk of these form residues attached
-to 1,556 alpha carbons (alpha refers to the first carbon
-that attaches to a functional group).
-In this protein molecule, the functional groups called
-residues are either amino acids or carbohydrates (sugar molecules).</p>
-<p>On the geometry of this protein, from Padlan (1994, p. 172):
-"An antibody molecule is composed of three major
-fragments: the two Fabs, which are identical and each
-of which contains the light chain and the first two
-domains of the heavy chain, and the Fc, which contains
-the C-terminal constant domains of the two heavy chains.
-The Fabs are linked to the Fc by the hinge
-region, which varies in length and flexibility in the
-different antibody classes and isotypes. The antigen binding
-sites (paratopes) are located at the tips of the Fabs."</p>
-<p>Full names for amino acid residues and group characteristics
-were taken from the commercial website www.tocris.com.</p>
-<p>The data records all 1,556 alpha carbons, their residues,
-which of five separate chains each carbon belongs to,
-and the geometric location given by coordinates
-x, y, and z as determined by X-ray crystallography and as available
-to Padlan (1994) either from the Protein Data Bank or or
-from original investigators at the time of publication.</p>
-<p>From the source website: "It is a composite model built from F(ab)2
-fragments from Brookhaven file 2IG2.PDB, and an Fc fragment from
-Brookhaven file 1FC2.PDB. Part of the hinge region and other details
-are theoretically modeled."</p>
+    <p>A sample of 200 rock crabs (Leptograpsus variegatus) found in the southern subtropical Pacific Ocean.
+These are small sea crabs that grow at most to about 50 millimetres of shell width.</p>
+<p>The data contain the sex and species of each crab as determined by the researchers (see references).</p>
     </div>
 
 
 
     <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
 
-    <p>A data frame with 1556 rows and 10 variates:</p><dl'>
- <dt>recordType</dt><dd><p>Either `ATOM` or `HETATM`.
- Here `ATOM` indicates an atom having a standard residue
- of the protein; `HETATM` (hetero atom) indicates one either
- having a non-standard residue of protein, or one in a group of a different kind
- such as carbohydrates, substrates, ligands, solvent, or metal ions. In
- the igg1 molecule, these will be a part of some carbohydrate.</p></dd>
- <dt>name</dt><dd><p>Name of the alpha carbon atom.</p></dd>
- <dt>residue</dt><dd><p>The three letter abbreviated name of the residue.</p></dd>
- <dt>chainID</dt><dd><p>Chains H and I (heavy), residues 1-452 each; Chains L, and M (light), residues 501-716; Chain C (carbohydate), residues 1-9, 10-18.</p></dd>
- <dt>residueSequenceNum</dt><dd><p>Order in which that carbon atom appears in its chain.</p></dd>
- <dt>x, y, z</dt><dd><p>Coordinates of the carbon atom in three-dimensonal space.</p></dd>
- <dt>residueName</dt><dd><p>Full name of the residue.</p></dd>
- <dt>group</dt><dd><p>A group characteristic for that residue.</p></dd>
+    <p>A data frame with 200 rows and 2 variables</p><dl'>
+ <dt>Species</dt><dd><p>A two level factor distinguishing the species by colour: either "blue" or "orange"</p></dd>
+ <dt>Sex</dt><dd><p>A two level factor identifying the crab's sex: either "male" or "female".</p></dd>
 
 </dl>
 
     <h2 class="hasAnchor" id="source"><a class="anchor" href="#source"></a>Source</h2>
 
-    <p><a href='https://www.umass.edu/microbio/rasmol/padlan.htm'>https://www.umass.edu/microbio/rasmol/padlan.htm</a>
-<a href='https://www.tocris.com/resources/peptide-nomenclature-guide'>https://www.tocris.com/resources/peptide-nomenclature-guide</a></p>
+    <p><a href='https://doi.org/10.1071/ZO9740417'>https://doi.org/10.1071/ZO9740417</a>  <a href='https://doi.org/10.1007/978-0-387-21706-2'>https://doi.org/10.1007/978-0-387-21706-2</a></p>
+    <h2 class="hasAnchor" id="details"><a class="anchor" href="#details"></a>Details</h2>
+
+    <p>The purpose of this data set is to identify which crabs in <code>lepto</code> belong to each of the four groups identified here.</p> 
+<p>There are 50 of each combination of factor levels.</p> 
+<p>Data are a subset of the <code>crabs</code> data set from the <code>MASS</code> package.  
+ Only the species and sex variables appear here and their row order here now match (row for row) the
+ order of the rows from the physical size measurements on the purple rock crab given in <code>lepto</code>.</p> 
+<p>This separation now allows clustering methods to be explored on the data set <code>lepto</code> and
+ compared to the classification by colour (Species) and sex given here.</p>
     <h2 class="hasAnchor" id="references"><a class="anchor" href="#references"></a>References</h2>
 
-    <p>Eduardo A. Padlan (1994) "Anatomy of the Antibody Molecule",
-Molecular Immunology, 31, Issue 3, pp. 169 - 217.</p>
-<p>Lisa J. Harris, Steven B. Larson, Karl W. Hasel,
-John Day, Aaron Greenwood and Alexander McPherson (1992)
-"The three-dimensional structure of an intact monoclonal
-antibody for canine lymphoma", Nature, 360, pp. 369-372.</p>
+    <p>N.A. Campbell and R.J. Mahon (1974). "A multivariate study of variation in two species of rock crab of the genus Leptograpsus."
+  Australian Journal of Zoology 22, 417-425. DOI:10.1071/ZO9740417</p>  
+<p>Venables, W. N. and Ripley, B. D. (2002) Modern Applied Statistics with S. Fourth edition. Springer.  DOI:10.1007/978-0-387-21706-2</p>
     <h2 class="hasAnchor" id="see-also"><a class="anchor" href="#see-also"></a>See also</h2>
 
-    <div class='dont-index'><p><code><a href='elements.html'>elements</a></code> <code><a href='SCmolecule.html'>SCmolecule</a></code></p></div>
+    <div class='dont-index'><p><code><a href='lepto.html'>lepto</a></code></p></div>
 
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">

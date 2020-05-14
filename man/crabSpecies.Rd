@@ -39,7 +39,7 @@ N.A. Campbell and R.J. Mahon (1974). "A multivariate study of variation in two s
   Venables, W. N. and Ripley, B. D. (2002) Modern Applied Statistics with S. Fourth edition. Springer.  DOI:10.1007/978-0-387-21706-2
 }
 \seealso{
-\link{\code{lepto}}
+\code{\link{lepto}}
 }
 \author{
 R.W. Oldford

@@ -35,7 +35,8 @@
 #' 
 #' @name lepto
 #' 
-#' @seealso crabsSpecies
+#' @seealso 
+#' \code{\link{crabSpecies}}
 #' 
 #' @keywords crabs nature MASS
 #' 

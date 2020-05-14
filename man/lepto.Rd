@@ -44,7 +44,7 @@ N.A. Campbell and R.J. Mahon (1974). "A multivariate study of variation in two s
   Fourth edition. Springer.  DOI:10.1007/978-0-387-21706-2
 }
 \seealso{
-crabsSpecies
+\code{\link{crabSpecies}}
 }
 \author{
 R.W. Oldford
