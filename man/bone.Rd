@@ -4,7 +4,8 @@
 \name{bone}
 \alias{bone}
 \title{Relative Spinal Bone Mineral Density Data}
-\format{A data frame with 485 rows and 5 variables
+\format{
+A data frame with 485 rows and 5 variables
 \describe{
  \item{idnum}{Identifies the subject, and hence the repeat measurements}
  \item{age}{Age of subject averaged over the two times measurements of 
@@ -17,7 +18,8 @@
                "Asian", "Black", "Hispanic", and "White".}
 }
 
-The row order of the values follow their order of appearence in the source webpage.}
+The row order of the values follow their order of appearence in the source webpage.
+}
 \source{
 \url{https://web.stanford.edu/~hastie/ElemStatLearn/}
 }
@@ -94,6 +96,8 @@ Laura K. Bachrach, Trevor Hastie, May-Choo Wang, Balasubramanian Narasimhan, and
 \author{
 R.W. Oldford
 }
+\keyword{ElemStatLearn}
 \keyword{bone}
 \keyword{density}
+\keyword{medical}
 \keyword{mineral}

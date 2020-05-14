@@ -1,4 +1,12 @@
 
+# loon.data 0.0.9
+
+* added the `diabetes` data from Andrews and Herzberg
+
+* added the data on rock crabs from `MASS` separated into two data sets for pedagogical purposes
+    - `lepto` contains the physical size measurements (rows randomized from `crabs` from `MASS`)
+    - `crabSpecies` contains the species and sex from `crabs` in row order given by `lepto`.
+
 # loon.data 0.0.8
 
 * added the protein/DNA complex `SCmolecule`  from Baker's Yeast (Saccharomyces Cerevisiae) from PDB 1d66

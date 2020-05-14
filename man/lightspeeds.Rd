@@ -4,7 +4,8 @@
 \name{lightspeeds}
 \alias{lightspeeds}
 \title{Historical Determinations of the Speed of Light}
-\format{A data frame with 81 rows and 11 variables
+\format{
+A data frame with 81 rows and 11 variables
 \describe{
  \item{method}{The general method used to determine the speed of light (see details for more on
  this).}
@@ -23,7 +24,8 @@
 }
 
 The row order of the values follow their order of appearence 
-in the paper given as reference below.}
+in the paper given as reference below.
+}
 \source{
 \url{https://www.researchgate.net/publication/275521939_The_speed_of_light_A_case_study_in_empirical_problem_solving}
 }

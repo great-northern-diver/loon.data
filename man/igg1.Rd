@@ -4,7 +4,8 @@
 \name{igg1}
 \alias{igg1}
 \title{Human immunoglobulin G1 antibody molecule}
-\format{A data frame with 1556 rows and 10 variates:
+\format{
+A data frame with 1556 rows and 10 variates:
  \describe{
  \item{recordType}{Either `ATOM` or `HETATM`.
  Here `ATOM` indicates an atom having a standard residue
@@ -19,7 +20,8 @@
  \item{x, y, z}{Coordinates of the carbon atom in three-dimensonal space.}
  \item{residueName}{Full name of the residue.}
  \item{group}{A group characteristic for that residue.}
-}}
+}
+}
 \source{
 \url{https://www.umass.edu/microbio/rasmol/padlan.htm}
 \url{https://www.tocris.com/resources/peptide-nomenclature-guide}

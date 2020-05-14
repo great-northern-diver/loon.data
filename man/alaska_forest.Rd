@@ -4,7 +4,8 @@
 \name{alaska_forest}
 \alias{alaska_forest}
 \title{Cooperative Alaska Forest Inventory data}
-\format{A data frame with 4848 rows and 8 variables
+\format{
+A data frame with 4848 rows and 8 variables
 \describe{
  \item{site}{A number identifying the sample plot at which measurements were taken.}
  \item{mass}{The biomass recorded in metric tonnes per hectare (Mg/ha)}
@@ -16,7 +17,8 @@
  \item{common}{The common name of the species measured.}
  \item{longitude}{The longitude locating the site in degrees.}
  \item{latitude}{The latitude locating the site in degrees.}
-}}
+}
+}
 \source{
 Raw data from source \url{https://www.fs.usda.gov/treesearch/pubs/32894} and provided by
 
@@ -59,3 +61,5 @@ Malone, Thomas; Liang, Jingjing; Packee, Edmond C. 2009.
 R.W. Oldford.
 }
 \keyword{biomass}
+\keyword{forestry}
+\keyword{nature}

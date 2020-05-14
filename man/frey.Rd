@@ -4,8 +4,10 @@
 \name{frey}
 \alias{frey}
 \title{Frey Faces}
-\format{Data frame with 1,965 variables (one image per column) and 560 rows 
-(the 560 greyscale values of a 20x28 image).}
+\format{
+Data frame with 1,965 variables (one image per column) and 560 rows 
+(the 560 greyscale values of a 20x28 image).
+}
 \source{
 \url{http://www.cs.nyu.edu/~roweis/data.html}
 }

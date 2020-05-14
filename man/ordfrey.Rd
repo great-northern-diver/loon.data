@@ -4,7 +4,9 @@
 \name{ordfrey}
 \alias{ordfrey}
 \title{Frey Faces Isomap}
-\format{Object of class 'isomap'.}
+\format{
+Object of class 'isomap'.
+}
 \description{
 Frey Faces Isomap
 }

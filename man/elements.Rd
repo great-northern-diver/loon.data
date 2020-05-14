@@ -4,7 +4,8 @@
 \name{elements}
 \alias{elements}
 \title{The first 118 chemical elements}
-\format{A data frame with 118 rows and 17 variates:
+\format{
+A data frame with 118 rows and 17 variates:
  \describe{
  \item{Number}{The atomic number.  The number of protons found the nucleus of every atom of the element.
        It is the (positive) charge number of the element's nucleus.}
@@ -44,7 +45,8 @@
                  metal - metalloid - nonmetal categorization.}
  \item{x}{The geometric horizontal position in the periodic table where this element appears.}
  \item{y}{The geometric vertical position in the periodic table where this element appears.}
-}}
+}
+}
 \source{
 Data extracted from Wikipedia's "List of chemical elements" \url{https://en.wikipedia.org/wiki/List_of_chemical_elements} (April 17, 2020).
 }
