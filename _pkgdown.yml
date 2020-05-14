@@ -19,6 +19,8 @@ reference:
     - binaryalphadigits
     - bone
     - bone_ext
+    - diabetes
+    - SAheart
     - ordalphadigits
     - digits
     - faces
@@ -27,10 +29,11 @@ reference:
     - elements
     - igg1
     - SCmolecule
+    - lepto
+    - crabSpecies
     - lightspeeds
     - michelson_1879
     - minority
-    - SAheart
   - title: Functions
     desc:  Help find data
     contents:
