@@ -80,7 +80,7 @@
 #' 
 #' @seealso \code{\link{bone_ext}}
 #' 
-#' @keywords bone mineral density
+#' @keywords bone mineral density medical
 #' 
 #' @author 
 #' R.W. Oldford

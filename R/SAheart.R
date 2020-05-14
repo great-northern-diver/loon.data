@@ -81,7 +81,7 @@
 #' 
 #' @name SAheart
 #' 
-#' @keywords case-control
+#' @keywords case-control medical
 #' 
 #' @author 
 #' R.W. Oldford
