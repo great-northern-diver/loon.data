@@ -49,6 +49,8 @@ reference:
     - bone
     - bone_ext
     - diabetes
+    - medicalRecords
+    - pandemic
     - SAheart
    
   - subtitle: Nature
