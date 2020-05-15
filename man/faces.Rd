@@ -4,8 +4,10 @@
 \name{faces}
 \alias{faces}
 \title{Olivetti Faces}
-\format{Data frame with 400 variables (one image per variable) and 4,096 rows
-(the greyscale values of a 64x64 image).}
+\format{
+Data frame with 400 variables (one image per variable) and 4,096 rows
+(the greyscale values of a 64x64 image).
+}
 \source{
 \url{http://www.cs.nyu.edu/~roweis/data.html}
 }

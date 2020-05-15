@@ -13,7 +13,7 @@
 #' @importFrom utils data
 #' @seealso data
 #' @examples 
-#' pkg_data("loon.data")
+#' head(pkg_data("loon.data"))
 pkg_data <- function(package = NULL) {
  data(package = package)$results[, -2]
 }

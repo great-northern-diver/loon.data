@@ -4,7 +4,8 @@
 \name{bone_ext}
 \alias{bone_ext}
 \title{Spinal Bone Mineral Density (Extended) Data}
-\format{A data frame with 1003 rows and 5 variables
+\format{
+A data frame with 1003 rows and 5 variables
 \describe{
  \item{idnum}{Identifies the subject, and hence the repeat measurements}
  \item{ethnic}{The "ethnicity/race" of the subject.  A factor with levels 
@@ -15,7 +16,8 @@
  in grams per square centimetre.}
 }
 
-The row order of the values follow their order of appearence in the source webpage.}
+The row order of the values follow their order of appearence in the source webpage.
+}
 \source{
 \url{https://web.stanford.edu/~hastie/ElemStatLearn/}
 }
@@ -69,6 +71,8 @@ Laura K. Bachrach, Trevor Hastie, May-Choo Wang, Balasubramanian Narasimhan, and
 \author{
 R.W. Oldford
 }
+\keyword{ElemStatLearn}
 \keyword{bone}
 \keyword{density}
+\keyword{medical}
 \keyword{mineral}

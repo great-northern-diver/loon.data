@@ -4,7 +4,8 @@
 \name{michelson_1879}
 \alias{michelson_1879}
 \title{A.A. Michelson's 1879 Determinations of the Speed of Light}
-\format{A data frame with 100 rows and 15 variables
+\format{
+A data frame with 100 rows and 15 variables
 \describe{
  \item{Speed}{The determined speed of light in air in kilometres per second.}
  \item{Beat}{Number of beats per second between tuning forks.}
@@ -23,7 +24,8 @@
  \item{Time.of.day}{Time of day at which the observation was recorded.
   `AM` means one hour after sunrise and `PM` one hour before sunset.}
  \item{Remarks}{Unusual remarks recorded for that observation.}
-}}
+}
+}
 \source{
 \url{https://projecteuclid.org/euclid.ss/1009212817}
 }
@@ -69,7 +71,7 @@ See reference for more details.
 \references{
 R.J. MacKay and R.W. Oldford 2000, 
   `Scientific Method, Statistical Method, and the Speed of Light`,
-  Statistical Science, Volume 15, No. 3, pp. 254-278.
+  Statistical Science, Volume 15, No. 3, pp. 254-278. DOI:10.1214/ss/1009212817
 }
 \seealso{
 \code{\link{lightspeeds}}

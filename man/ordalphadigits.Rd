@@ -4,7 +4,9 @@
 \name{ordalphadigits}
 \alias{ordalphadigits}
 \title{Binary Alphadigits Isomap}
-\format{Object of class 'isomap'.}
+\format{
+Object of class 'isomap'.
+}
 \description{
 Binary Alphadigits Isomap
 }

@@ -4,7 +4,8 @@
 \name{SAheart}
 \alias{SAheart}
 \title{South African Heart Disease Data}
-\format{A data frame with 462 rows and 10 variables
+\format{
+A data frame with 462 rows and 10 variables
 \describe{
  \item{sbp}{Systolic blood pressure in millimetres of mercury (mm Hg).}
  \item{tobacco}{Cumulative tobacco use in kilograms. 
@@ -29,7 +30,8 @@
             had been diagnosed as having coronary heart disease or not.}
 }
 
-The row order of the values follow their order of appearence in the source webpage.}
+The row order of the values follow their order of appearence in the source webpage.
+}
 \source{
 \url{https://web.stanford.edu/~hastie/ElemStatLearn/}
 }
@@ -102,4 +104,6 @@ Trevor Hastie and Robert Tibshirani (1987)
 \author{
 R.W. Oldford
 }
+\keyword{ElemStatLearn}
 \keyword{case-control}
+\keyword{medical}

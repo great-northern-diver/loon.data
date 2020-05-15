@@ -81,7 +81,7 @@
 #' 
 #' @name SAheart
 #' 
-#' @keywords case-control
+#' @keywords case-control medical ElemStatLearn
 #' 
 #' @author 
 #' R.W. Oldford

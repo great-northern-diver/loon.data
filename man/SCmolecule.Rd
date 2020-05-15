@@ -4,7 +4,8 @@
 \name{SCmolecule}
 \alias{SCmolecule}
 \title{A protein/DNA complex molecule from Saccharomyces Cerevisiae}
-\format{A data frame with 1762 rows and 14 variates:
+\format{
+A data frame with 1762 rows and 14 variates:
  \describe{
  \item{group}{One of `ATOM` or  `HETATM`.
  Here `ATOM` indicates an atom having a standard residue
@@ -33,7 +34,8 @@
  \item{mass}{Atomic mass of the backbone atom.}
  \item{residueType}{Type of the residue.}
  \item{residueName}{Full name of the residue.}
-}}
+}
+}
 \source{
 \url{https://www.rcsb.org/3d-view/1D66/}. \url{https://bioinformatics.org/firstglance/fgij/fg.htm?mol=1d66}
 }

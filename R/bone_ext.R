@@ -56,7 +56,7 @@
 #' 
 #' @seealso \code{\link{bone}}
 #' 
-#' @keywords bone mineral density
+#' @keywords bone mineral density medical ElemStatLearn
 #' 
 #' @author 
 #' R.W. Oldford

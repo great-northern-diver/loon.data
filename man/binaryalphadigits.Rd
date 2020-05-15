@@ -4,9 +4,11 @@
 \name{binaryalphadigits}
 \alias{binaryalphadigits}
 \title{Binary Alphadigits}
-\format{A data frame with 1,404 rows each representing an image (39 examples of 36 classes)
+\format{
+A data frame with 1,404 rows each representing an image (39 examples of 36 classes)
   and 320 variables taking binary values 1 or 0 (black =1 and white = 0 for each pixel value
-  of a 20x16 alpha-numeric image).}
+  of a 20x16 alpha-numeric image).
+}
 \source{
 \url{http://www.cs.nyu.edu/~roweis/data.html}
 }
