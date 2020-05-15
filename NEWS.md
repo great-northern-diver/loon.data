@@ -6,6 +6,10 @@
 * added the data on rock crabs from `MASS` separated into two data sets for pedagogical purposes
     - `lepto` contains the physical size measurements (rows randomized from `crabs` from `MASS`)
     - `crabSpecies` contains the species and sex from `crabs` in row order given by `lepto`.
+    
+* added two fictional data sets (and contexts) to be used for teaching
+    - `pandemic` is a fictional data set on recovery rates for three treatments for patients from 100 cities worldwide.  Designed to make students think when comparing treatments.  Contains a cyclic ordering of treatments
+    - `medicalRecords` is a fictional data set containing counts in a 2x2x2x2 table.  Designed to contain a double reversing Simpson's paradox.
 
 # loon.data 0.0.8
 
