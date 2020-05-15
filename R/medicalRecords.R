@@ -17,9 +17,9 @@
 #' @format A data frame with 16 rows and 5 variables (providing the counts for a 2x2x2x2 contingency table).
 #' \describe{
 #'  \item{Age}{A two level factor recording one of two age groups: "20-39" or "40-59". }
-#'  \item{Age}{A two level factor recording sex: "Male" or "Female". }
-#'  \item{Age}{A two level factor recording the treatment received: "A" or "B". }
-#'  \item{Age}{A two level factor recording patient outcome after treatment: "Recovered" or "Died". }
+#'  \item{Sex}{A two level factor recording sex: "Male" or "Female". }
+#'  \item{Treatment}{A two level factor recording the treatment received: "A" or "B". }
+#'  \item{Outcome}{A two level factor recording patient outcome after treatment: "Recovered" or "Died". }
 #'  \item{Freq}{The frequency count of patients having that combination of factors.}
 #' }
 #' 
