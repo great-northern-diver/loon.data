@@ -1,6 +1,8 @@
 
 # loon.data 0.0.9
 
+* organized topics in pkgdown yaml
+
 * added the `diabetes` data from Andrews and Herzberg
 
 * added the data on rock crabs from `MASS` separated into two data sets for pedagogical purposes
