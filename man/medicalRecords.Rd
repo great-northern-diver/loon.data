@@ -90,9 +90,7 @@ R.J. MacKay and R.W. Oldford 2000,
 R.W. Oldford
 }
 \keyword{categorical}
-\keyword{data}
-\keyword{data,}
 \keyword{fictional}
-\keyword{medicine,}
-\keyword{mining,}
+\keyword{medicine}
+\keyword{paradox}
 \keyword{teaching}
