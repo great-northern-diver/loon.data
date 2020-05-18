@@ -59,9 +59,18 @@ reference:
     - alaska_forest
     - lepto
     - crabSpecies
+    - lizards
     
   - subtitle: Society
     desc: Social science data
     contents:
     - minority
     
+  - subtitle: Teaching
+    desc: Artificial or otherwise constructed data designed for pedagogical purposes
+    contents:
+    - blocks
+    - judgment
+    - lizards
+    - medicalRecords
+    - pandemic

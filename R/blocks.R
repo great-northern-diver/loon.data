@@ -15,9 +15,6 @@
 #' The data can be used to illustrate different sampling methods (e.g. simple random sampling, stratified sampling, and regression estimates based on modelling weight as a function of perimeter).
 #' Histograms of resulting estimates (over several samples) can be revealing.
 #' 
-#' The blocks were designed for use in a classroom setting.  All physically shown to a group of students who were asked the
-#' 
-#'
 #'
 #' @format A data frame with 100 rows and 4 variates
 #' \describe{
