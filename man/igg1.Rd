@@ -78,5 +78,4 @@ R.W. Oldford
 \keyword{3D}
 \keyword{antibody}
 \keyword{atom}
-\keyword{data}
 \keyword{molecule}

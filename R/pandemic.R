@@ -51,7 +51,7 @@
 #' @seealso  
 #' \code{\link{medicalRecords}}
 #' 
-#' @keywords fictional data, medicine, teaching
+#' @keywords fictional medicine paradox teaching
 #' 
 #' @author 
 #' R.W. Oldford

@@ -57,7 +57,7 @@
 #' 
 #' @name igg1
 #' 
-#' @keywords data molecule 3D antibody atom
+#' @keywords  molecule 3D antibody atom
 #' 
 #' @author R.W. Oldford
 #' 

@@ -84,7 +84,7 @@
 #' @seealso  
 #' \code{\link{pandemic}}
 #' 
-#' @keywords fictional data, medicine, data mining, categorical data,  teaching
+#' @keywords fictional medicine categorical paradox teaching
 #' 
 #' @author 
 #' R.W. Oldford

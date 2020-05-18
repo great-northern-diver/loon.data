@@ -87,7 +87,7 @@
 #' 
 #' @name SCmolecule
 #'  
-#' @keywords data molecule 3D atom
+#' @keywords molecule 3D atom DNA protein
 #' 
 #' @author R.W. Oldford
 #' 

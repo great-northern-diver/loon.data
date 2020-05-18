@@ -51,7 +51,7 @@ A better than B? Than C?  Is B better than C?
 \author{
 R.W. Oldford
 }
-\keyword{data,}
 \keyword{fictional}
-\keyword{medicine,}
+\keyword{medicine}
+\keyword{paradox}
 \keyword{teaching}

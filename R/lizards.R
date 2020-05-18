@@ -1,0 +1,55 @@
+#' @title A fictional data set on lizards perch choices
+#'
+#' @description 
+#' An entirely artificially constructed data set and context designed for classroom discussion and
+#' analysis. 
+#' 
+#' The fictional context is that 384 different lizards have been observed in nature, from each of 4 different species ("A", "B", "C", or "D").
+#' In addition to their species, the sex of each lizard was identified.   
+#' At the time of observation, each lizard was perched on the branch of a bush.
+#' The perch height from the ground in feet was measured and the diameter in inches of the branch where the lizard was perched was measured.
+#' Lizards are collected and numbered (row.names) in the order they appear in the data set.
+#' 
+#' We could imagine the study having proceeded as follows.
+#' 
+#' Problem:
+#' 
+#' Suppose that we are interested in the habitat of lizards on some other remote island archipelago. 
+#' Here there are trees of all heights and many different species of lizards. 
+#' Interest lies in understanding the perch height preference for all lizards.
+#' 
+#' Plan:
+#' 
+#' As with the source study, lizards will be observed during daylight hours for two separate
+#' summer time expeditions. The height (in feet) at which the lizard is observed will be
+#' recorded as is the diameter (in inches) of the branch where the lizard is perched.
+#' The species and sex of each lizard will be recorded.
+#' 
+#' Data:
+#' A total of 384 lizards of several species were captured and measured together with the
+#' height and diameter of their perch when first spotted.
+#' 
+#' 
+#' NOTE:  The data are inspired by the reference but are otherwise entirely fictional and constructed primarily for pedagogical purposes.
+#'  Instructors might choose to invent their own context.
+#'
+#'
+#' @format A data frame with 384 rows and 4 variates
+#' \describe{
+#'  \item{perchHeight}{The height in feet where the lizard was found to be perched.}
+#'  \item{perchDiameter}{The diameter in inches of the branch where the lizard was perched.}
+#'  \item{sex}{The sex of the lizard: a factor with levels "male" and "female"}
+#'  \item{species}{The species of lizard: a factor with four levels "A", "B", "C", and "D".}
+#' }
+#'
+#' `rownames(lizards)` labels the order in which the lizards were collected.
+#' 
+#' @author R.W. Oldford
+#' @docType data
+#' @name lizards 
+#' @keywords  lizards nature fictional paradox teaching 
+#' 
+#' @references  
+#' T.W. Schoener (1968) “The Anolis lizards of Bimini: Resource partitioning in a complex fauna”, Ecology, Vol. 49, pp. 704-726. 
+
+NULL
