@@ -35,7 +35,7 @@ Interest lies in understanding the perch height preference for all lizards.
 
 Plan:
 
-As with the source study, lizards will be observed during daylight hours for four separate
+As with the source study, lizards will be observed during daylight hours for two separate
 summer time expeditions. The height (in feet) at which the lizard is observed will be
 recorded as is the diameter (in inches) of the branch where the lizard is perched.
 The species and sex of each lizard will be recorded.
@@ -57,4 +57,5 @@ R.W. Oldford
 \keyword{fictional}
 \keyword{lizards}
 \keyword{nature}
+\keyword{paradox}
 \keyword{teaching}

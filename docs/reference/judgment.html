@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Simple summary of data available in named packages — pkg_data • loon.data</title>
+<title>Judgment samples of plastic blocks — judgment • loon.data</title>
 
 <!-- favicons -->
 <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
@@ -46,8 +46,13 @@
 
 
 
-<meta property="og:title" content="Simple summary of data available in named packages — pkg_data" />
-<meta property="og:description" content="Simple summary of data available in named packages" />
+<meta property="og:title" content="Judgment samples of plastic blocks — judgment" />
+<meta property="og:description" content="Thirty-three graduate students were shown a set of 100 &quot;physical blocks&quot; of different shapes and sizes, all cut from a single sheet of opaque plastic a few millimetres thick (see  blocks).
+The blocks were numbered 1 to 100 and each student was asked to choose 10 blocks whose average weight would, in their judgment,  equal the average weight of all 100 blocks.
+The only information available to each student to help them make their choice was the visual shape and size of all 100 blocks.
+They had a few minutes each to make and record their choices. 
+The task was presented as a competition with a prize to go to the student whose sample came closest to the population average weight.
+Actual block weights and other information are available in the dataset blocks." />
 <meta property="og:image" content="/logo.png" />
 
 
@@ -119,52 +124,43 @@
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>Simple summary of data available in named packages</h1>
+    <h1>Judgment samples of plastic blocks</h1>
     
-    <div class="hidden name"><code>pkg_data.Rd</code></div>
+    <div class="hidden name"><code>judgment.Rd</code></div>
     </div>
 
     <div class="ref-description">
-    <p>Simple summary of data available in named packages</p>
+    <p>Thirty-three graduate students were shown a set of 100 "physical blocks" of different shapes and sizes, all cut from a single sheet of opaque plastic a few millimetres thick (see  <code><a href='blocks.html'>blocks</a></code>).</p>
+<p>The blocks were numbered 1 to 100 and each student was asked to choose 10 blocks whose average weight would, in their judgment,  equal the average weight of all 100 blocks.
+The only information available to each student to help them make their choice was the visual shape and size of all 100 blocks.
+They had a few minutes each to make and record their choices.</p> 
+<p>The task was presented as a competition with a prize to go to the student whose sample came closest to the population average weight.</p>
+<p>Actual block weights and other information are available in the dataset <code><a href='blocks.html'>blocks</a></code>.</p>
     </div>
 
-    <pre class="usage"><span class='fu'>pkg_data</span>(<span class='kw'>package</span> <span class='kw'>=</span> <span class='kw'>NULL</span>)</pre>
 
-    <h2 class="hasAnchor" id="arguments"><a class="anchor" href="#arguments"></a>Arguments</h2>
-    <table class="ref-arguments">
-    <colgroup><col class="name" /><col class="desc" /></colgroup>
-    <tr>
-      <th>package</th>
-      <td><p>A character vector giving the package(s) to look in for data sets, 
-or NULL. By default, all packages in the search path are used, then the ‘data’ 
-subdirectory (if present) of the current working directory.</p></td>
-    </tr>
-    </table>
 
-    <h2 class="hasAnchor" id="details"><a class="anchor" href="#details"></a>Details</h2>
+    <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
 
-    <p>Syntactic sugar wrapping call to <code><a href='https://rdrr.io/r/utils/data.html'>utils::data(package = package)</a></code> 
-to return basic information on datasets in package.
-No data are loaded by the call.</p>
+    <p>A data frame with 33 rows and 11 variates</p><dl'>
+ <dt>studentID</dt><dd><p>The last four digits of the student's ID number (leading zeros removed).</p></dd>
+ <dt>first</dt><dd><p>The block id number of the first block selected by the student.</p></dd>
+ <dt>second</dt><dd><p>The block id number of the second block selected by the student.</p></dd>
+ <dt>third</dt><dd><p>The block id number of the third block selected by the student.</p></dd>
+ <dt>fourth</dt><dd><p>The block id number of the fourth block selected by the student.</p></dd>
+ <dt>fifth</dt><dd><p>The block id number of the fifth block selected by the student.</p></dd>
+ <dt>sixth</dt><dd><p>The block id number of the sixth block selected by the student.</p></dd>
+ <dt>seventh</dt><dd><p>The block id number of the seventh block selected by the student.</p></dd>
+ <dt>eighth</dt><dd><p>The block id number of the eighth block selected by the student.</p></dd>
+ <dt>ninth</dt><dd><p>The block id number of the ninth block selected by the student.</p></dd>
+ <dt>tenth</dt><dd><p>The block id number of the tenth block selected by the student.</p></dd>
+
+</dl>
+
     <h2 class="hasAnchor" id="see-also"><a class="anchor" href="#see-also"></a>See also</h2>
 
-    <div class='dont-index'><p>data</p></div>
+    <div class='dont-index'><p><code><a href='blocks.html'>blocks</a></code></p></div>
 
-    <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
-    <pre class="examples"><div class='input'><span class='fu'><a href='https://rdrr.io/r/utils/head.html'>head</a></span>(<span class='fu'>pkg_data</span>(<span class='st'>"loon.data"</span>))</div><div class='output co'>#&gt;      Package     Item               
-#&gt; [1,] "loon.data" "SAheart"          
-#&gt; [2,] "loon.data" "SCmolecule"       
-#&gt; [3,] "loon.data" "alaska_forest"    
-#&gt; [4,] "loon.data" "binaryalphadigits"
-#&gt; [5,] "loon.data" "blocks"           
-#&gt; [6,] "loon.data" "bone"             
-#&gt;      Title                                                         
-#&gt; [1,] "South African Heart Disease Data"                            
-#&gt; [2,] "A protein/DNA complex molecule from Saccharomyces Cerevisiae"
-#&gt; [3,] "Cooperative Alaska Forest Inventory data"                    
-#&gt; [4,] "Binary Alphadigits"                                          
-#&gt; [5,] "A set of 100 plastic \"blocks\""                             
-#&gt; [6,] "Relative Spinal Bone Mineral Density Data"                   </div></pre>
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
     <nav id="toc" data-toggle="toc" class="sticky-top">

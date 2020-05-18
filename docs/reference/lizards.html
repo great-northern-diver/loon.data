@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Simple summary of data available in named packages — pkg_data • loon.data</title>
+<title>A fictional data set on lizards perch choices — lizards • loon.data</title>
 
 <!-- favicons -->
 <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
@@ -46,8 +46,30 @@
 
 
 
-<meta property="og:title" content="Simple summary of data available in named packages — pkg_data" />
-<meta property="og:description" content="Simple summary of data available in named packages" />
+<meta property="og:title" content="A fictional data set on lizards perch choices — lizards" />
+<meta property="og:description" content="An entirely artificially constructed data set and context designed for classroom discussion and
+analysis.
+The fictional context is that 384 different lizards have been observed in nature, from each of 4 different species (&quot;A&quot;, &quot;B&quot;, &quot;C&quot;, or &quot;D&quot;).
+In addition to their species, the sex of each lizard was identified.   
+At the time of observation, each lizard was perched on the branch of a bush.
+The perch height from the ground in feet was measured and the diameter in inches of the branch where the lizard was perched was measured.
+Lizards are collected and numbered (row.names) in the order they appear in the data set.
+We could imagine the study having proceeded as follows.
+Problem:
+Suppose that we are interested in the habitat of lizards on some other remote island archipelago. 
+Here there are trees of all heights and many different species of lizards. 
+Interest lies in understanding the perch height preference for all lizards.
+Plan:
+As with the source study, lizards will be observed during daylight hours for two separate
+summer time expeditions. The height (in feet) at which the lizard is observed will be
+recorded as is the diameter (in inches) of the branch where the lizard is perched.
+The species and sex of each lizard will be recorded.
+Data:
+A total of 384 lizards of several species were captured and measured together with the
+height and diameter of their perch when first spotted.
+
+NOTE:  The data are inspired by the reference but are otherwise entirely fictional and constructed primarily for pedagogical purposes.
+ Instructors might choose to invent their own context." />
 <meta property="og:image" content="/logo.png" />
 
 
@@ -119,52 +141,54 @@
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>Simple summary of data available in named packages</h1>
+    <h1>A fictional data set on lizards perch choices</h1>
     
-    <div class="hidden name"><code>pkg_data.Rd</code></div>
+    <div class="hidden name"><code>lizards.Rd</code></div>
     </div>
 
     <div class="ref-description">
-    <p>Simple summary of data available in named packages</p>
+    <p>An entirely artificially constructed data set and context designed for classroom discussion and
+analysis.</p>
+<p>The fictional context is that 384 different lizards have been observed in nature, from each of 4 different species ("A", "B", "C", or "D").
+In addition to their species, the sex of each lizard was identified.   
+At the time of observation, each lizard was perched on the branch of a bush.
+The perch height from the ground in feet was measured and the diameter in inches of the branch where the lizard was perched was measured.
+Lizards are collected and numbered (row.names) in the order they appear in the data set.</p>
+<p>We could imagine the study having proceeded as follows.</p>
+<p>Problem:</p>
+<p>Suppose that we are interested in the habitat of lizards on some other remote island archipelago. 
+Here there are trees of all heights and many different species of lizards. 
+Interest lies in understanding the perch height preference for all lizards.</p>
+<p>Plan:</p>
+<p>As with the source study, lizards will be observed during daylight hours for two separate
+summer time expeditions. The height (in feet) at which the lizard is observed will be
+recorded as is the diameter (in inches) of the branch where the lizard is perched.
+The species and sex of each lizard will be recorded.</p>
+<p>Data:
+A total of 384 lizards of several species were captured and measured together with the
+height and diameter of their perch when first spotted.</p>
+
+<p>NOTE:  The data are inspired by the reference but are otherwise entirely fictional and constructed primarily for pedagogical purposes.
+ Instructors might choose to invent their own context.</p>
     </div>
 
-    <pre class="usage"><span class='fu'>pkg_data</span>(<span class='kw'>package</span> <span class='kw'>=</span> <span class='kw'>NULL</span>)</pre>
 
-    <h2 class="hasAnchor" id="arguments"><a class="anchor" href="#arguments"></a>Arguments</h2>
-    <table class="ref-arguments">
-    <colgroup><col class="name" /><col class="desc" /></colgroup>
-    <tr>
-      <th>package</th>
-      <td><p>A character vector giving the package(s) to look in for data sets, 
-or NULL. By default, all packages in the search path are used, then the ‘data’ 
-subdirectory (if present) of the current working directory.</p></td>
-    </tr>
-    </table>
 
-    <h2 class="hasAnchor" id="details"><a class="anchor" href="#details"></a>Details</h2>
+    <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
 
-    <p>Syntactic sugar wrapping call to <code><a href='https://rdrr.io/r/utils/data.html'>utils::data(package = package)</a></code> 
-to return basic information on datasets in package.
-No data are loaded by the call.</p>
-    <h2 class="hasAnchor" id="see-also"><a class="anchor" href="#see-also"></a>See also</h2>
+    <p>A data frame with 384 rows and 4 variates</p><dl'>
+ <dt>perchHeight</dt><dd><p>The height in feet where the lizard was found to be perched.</p></dd>
+ <dt>perchDiameter</dt><dd><p>The diameter in inches of the branch where the lizard was perched.</p></dd>
+ <dt>sex</dt><dd><p>The sex of the lizard: a factor with levels "male" and "female"</p></dd>
+ <dt>species</dt><dd><p>The species of lizard: a factor with four levels "A", "B", "C", and "D".</p></dd>
 
-    <div class='dont-index'><p>data</p></div>
+</dl>
 
-    <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
-    <pre class="examples"><div class='input'><span class='fu'><a href='https://rdrr.io/r/utils/head.html'>head</a></span>(<span class='fu'>pkg_data</span>(<span class='st'>"loon.data"</span>))</div><div class='output co'>#&gt;      Package     Item               
-#&gt; [1,] "loon.data" "SAheart"          
-#&gt; [2,] "loon.data" "SCmolecule"       
-#&gt; [3,] "loon.data" "alaska_forest"    
-#&gt; [4,] "loon.data" "binaryalphadigits"
-#&gt; [5,] "loon.data" "blocks"           
-#&gt; [6,] "loon.data" "bone"             
-#&gt;      Title                                                         
-#&gt; [1,] "South African Heart Disease Data"                            
-#&gt; [2,] "A protein/DNA complex molecule from Saccharomyces Cerevisiae"
-#&gt; [3,] "Cooperative Alaska Forest Inventory data"                    
-#&gt; [4,] "Binary Alphadigits"                                          
-#&gt; [5,] "A set of 100 plastic \"blocks\""                             
-#&gt; [6,] "Relative Spinal Bone Mineral Density Data"                   </div></pre>
+<p>`rownames(lizards)` labels the order in which the lizards were collected.</p>
+    <h2 class="hasAnchor" id="references"><a class="anchor" href="#references"></a>References</h2>
+
+    <p>T.W. Schoener (1968) “The Anolis lizards of Bimini: Resource partitioning in a complex fauna”, Ecology, Vol. 49, pp. 704-726.</p>
+
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
     <nav id="toc" data-toggle="toc" class="sticky-top">

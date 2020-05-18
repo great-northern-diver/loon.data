@@ -28,8 +28,6 @@ The group variable identifies two strata ("A" or "B") roughly determined by the 
 
 The data can be used to illustrate different sampling methods (e.g. simple random sampling, stratified sampling, and regression estimates based on modelling weight as a function of perimeter).
 Histograms of resulting estimates (over several samples) can be revealing.
-
-The blocks were designed for use in a classroom setting.  All physically shown to a group of students who were asked the
 }
 \seealso{
 \code{\link{judgment}}
