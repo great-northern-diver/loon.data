@@ -12,7 +12,7 @@
 * added data on sampling from a set of 100 flat plastic blocks
     - `blocks` contains the ids of each of the 100 blocks as well as their weight, their perimeter, and to which of two strata they belong. 
     - `judgment` contains the judgment sample of 10 blocks chosen by each of 33 graduate students
-    - together these two data sets are valuable to illustrate sampling methods.
+    - together these two data sets are used to illustrate sampling methods.
     
 * added three fictional data sets (and contexts) to be used for teaching
     - `lizards` is a fictional data set on perch preferences for four different species of lizard.  Useful to illustrate a continuous counter part to Simpson's paradox often called the "ecological fallacy".
