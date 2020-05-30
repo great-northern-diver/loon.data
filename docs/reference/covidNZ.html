@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Olivetti Faces — faces • loon.data</title>
+<title>Covid 19 Case Data New Zealand — covidNZ • loon.data</title>
 
 <!-- favicons -->
 <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
@@ -46,8 +46,10 @@
 
 
 
-<meta property="og:title" content="Olivetti Faces — faces" />
-<meta property="og:description" content="Grayscale faces 8 bit [0-255], a few images of several different people." />
+<meta property="og:title" content="Covid 19 Case Data New Zealand — covidNZ" />
+<meta property="og:description" content="Case data published by the New Zealand Ministry of Health downloaded from the source on May 28, 2020.
+The data consist of 1,154 individuals having been confirmed cases of COVID-19.
+Confirmed cases are people that have had a positive laboratory test." />
 <meta property="og:image" content="/logo.png" />
 
 
@@ -119,31 +121,56 @@
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>Olivetti Faces</h1>
+    <h1>Covid 19 Case Data New Zealand</h1>
     
-    <div class="hidden name"><code>faces.Rd</code></div>
+    <div class="hidden name"><code>covidNZ.Rd</code></div>
     </div>
 
     <div class="ref-description">
-    <p>Grayscale faces 8 bit [0-255], a few images of several different people.</p>
+    <p>Case data published by the New Zealand Ministry of Health downloaded from the source on May 28, 2020.</p>
+<p>The data consist of 1,154 individuals having been confirmed cases of COVID-19.
+Confirmed cases are people that have had a positive laboratory test.</p>
     </div>
 
 
 
     <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
 
-    <p>Data frame with 400 variables (one image per variable) and 4,096 rows
-(the greyscale values of a 64x64 image).</p>
+    <p>A data frame with 1154 rows and 9 variables</p><dl'>
+ <dt>Case_date</dt><dd><p>The date notified of a potential case.  This variable is of class "Date" in day-month-year format.</p></dd>
+ <dt>Sex</dt><dd><p>The sex of the person, a factor with two levels: Male and Female</p></dd>
+ <dt>Age</dt><dd><p>The age group to which the person belongs.  This is a factor having levels marked in year groups:
+ "&lt;1", "01 to 04", "0 to 09", "10 to 14", "15 to 19", "20 to 29", "30 to 39", "40 to 49",</p></dd>
+ <dt>District_Health_Board</dt><dd><p>A character vector giving the name of the DHB or District Health Board where the case occurred.</p></dd>
+ <dt>Overseas_travel</dt><dd><p>A factor indicating whether the patient recently travelled overseas.</p></dd>
+ <dt>Last_country_visited</dt><dd><p>A character vector giving the name, if known, of the last country visited by the person.</p></dd>
+ <dt>Flight_number</dt><dd><p>A character vector recording the number of the flight flown from the last country.</p></dd>
+ <dt>Flight_departure_date</dt><dd><p>A vector of class "Date" giving the flight's departure date from the last country visited.</p></dd>
+ <dt>Arrival_date</dt><dd><p>A vector of class "Date" giving the flight's arrival date from the last country visited.</p></dd>
+
+</dl>
+
     <h2 class="hasAnchor" id="source"><a class="anchor" href="#source"></a>Source</h2>
 
-    <p><a href='http://www.cs.nyu.edu/~roweis/data.html'>http://www.cs.nyu.edu/~roweis/data.html</a></p>
+    <p><a href='https://www.health.govt.nz/our-work/diseases-and-conditions/covid-19-novel-coronavirus/covid-19-current-situation/covid-19-current-cases/covid-19-current-cases-details'>https://www.health.govt.nz/our-work/diseases-and-conditions/covid-19-novel-coronavirus/covid-19-current-situation/covid-19-current-cases/covid-19-current-cases-details</a></p>
     <h2 class="hasAnchor" id="details"><a class="anchor" href="#details"></a>Details</h2>
 
-    <p>400 total images, 64x64 size.</p>
-<p>From the Olivetti database at ATT.</p>
+    <p>From the source:  (May 28, 2020: https://www.health.govt.nz/our-work/diseases-and-conditions/covid-19-novel-coronavirus/covid-19-current-situation/covid-19-current-cases/)</p>
+<p>"The case definition has been amended to de-couple respiratory symptoms 
+from a history of travel. Testing is available to people with respiratory 
+symptoms suggestive of COVID-19 infection (including the acute onset of 
+cough with or without fever). This is regardless of travel history or 
+known contact with a confirmed or probable case of COVID-19. 
+Priority groups for testing have been included in the case definitions."</p>
+<p>"Confirmed case:</p>
+<p>"A case that has laboratory definitive evidence. 
+Laboratory definitive evidence requires at least one of the following:
+* detection of SARS-CoV-2 from a clinical specimen using a validated NAAT (PCR)
+* detection of coronavirus from a clinical specimen using pan-coronavirus NAAT (PCR) and confirmation as SARS-CoV-2 by sequencing
+* significant rise in IgG antibody level to SARS-CoV-2 between paired sera (when serological testing becomes available)."</p>
     <h2 class="hasAnchor" id="see-also"><a class="anchor" href="#see-also"></a>See also</h2>
 
-    <div class='dont-index'><p><code><a href='frey.html'>frey</a></code>, <code><a href='ordfrey.html'>ordfrey</a></code></p></div>
+    <div class='dont-index'><p><code><a href='igg1.html'>igg1</a></code> <code><a href='medicalRecords.html'>medicalRecords</a></code> <code><a href='pandemic.html'>pandemic</a></code></p></div>
 
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">

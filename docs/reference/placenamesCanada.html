@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Olivetti Faces — faces • loon.data</title>
+<title>Canadian place names and their geo-locations. — placenamesCanada • loon.data</title>
 
 <!-- favicons -->
 <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
@@ -46,8 +46,10 @@
 
 
 
-<meta property="og:title" content="Olivetti Faces — faces" />
-<meta property="og:description" content="Grayscale faces 8 bit [0-255], a few images of several different people." />
+<meta property="og:title" content="Canadian place names and their geo-locations. — placenamesCanada" />
+<meta property="og:description" content="The names (in English and in French) of 10,776 places in Canada together with their 
+geographic locations as compiled by the Government of Canada.
+The data are part of the Canadian government's open data project." />
 <meta property="og:image" content="/logo.png" />
 
 
@@ -119,31 +121,48 @@
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>Olivetti Faces</h1>
+    <h1>Canadian place names and their geo-locations.</h1>
     
-    <div class="hidden name"><code>faces.Rd</code></div>
+    <div class="hidden name"><code>placenamesCanada.Rd</code></div>
     </div>
 
     <div class="ref-description">
-    <p>Grayscale faces 8 bit [0-255], a few images of several different people.</p>
+    <p>The names (in English and in French) of 10,776 places in Canada together with their 
+geographic locations as compiled by the Government of Canada.</p>
+<p>The data are part of the Canadian government's open data project.</p>
     </div>
 
 
 
     <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
 
-    <p>Data frame with 400 variables (one image per variable) and 4,096 rows
-(the greyscale values of a 64x64 image).</p>
+    <p>A data frame with 10,676 rows and 6 variables</p><dl'>
+ <dt>ID</dt><dd><p>The identification number of the place name (called "PNuid_NLidu" in the source).</p></dd>
+ <dt>Name</dt><dd><p>A character vector containing the place name in English.</p></dd>
+ <dt>Nom</dt><dd><p>A character vector containing the place name in French.</p></dd>
+ <dt>Province</dt><dd><p>A factor with 13 levels giving the two-letter code for the Canadian province or territory.</p></dd>
+ <dt>Latitude</dt><dd><p>A numeric vector giving the latitude of the place.</p></dd>
+ <dt>Longitude</dt><dd><p>A numeric vector giving the longitude of the place.</p></dd>
+
+</dl>
+
     <h2 class="hasAnchor" id="source"><a class="anchor" href="#source"></a>Source</h2>
 
-    <p><a href='http://www.cs.nyu.edu/~roweis/data.html'>http://www.cs.nyu.edu/~roweis/data.html</a></p>
+    <p><a href='https://open.canada.ca/data/en/dataset/fe945388-1dd9-4a4a-9a1e-5c552579a28c'>https://open.canada.ca/data/en/dataset/fe945388-1dd9-4a4a-9a1e-5c552579a28c</a></p>
     <h2 class="hasAnchor" id="details"><a class="anchor" href="#details"></a>Details</h2>
 
-    <p>400 total images, 64x64 size.</p>
-<p>From the Olivetti database at ATT.</p>
-    <h2 class="hasAnchor" id="see-also"><a class="anchor" href="#see-also"></a>See also</h2>
-
-    <div class='dont-index'><p><code><a href='frey.html'>frey</a></code>, <code><a href='ordfrey.html'>ordfrey</a></code></p></div>
+    <p>Note that English and French names rarely differ in this data set.</p>
+<p>Details from the source:</p>
+<p>"The collection of geolocated placenames in Canada represents a consistent and comprehensive 
+distribution of named places across Canada. Named places include large and small cities, villages, 
+First Nations Communities, Small Hamlets etc.</p>
+<p>"This data draws from public information maintained by Natural Resources Canada as part of 
+the Canadian Geographical Names Database and public information maintained by Crown-Indigenous 
+Relations and Northern Affairs Canada.</p>
+<p>"The set of geolocated placenames is currently used for the administration of rural broadband 
+Internet contribution programs, but is equally applicable for other mapping or modelling purposes 
+where a comprehensive set of geolocated placenames across Canada is required."</p>
+<p>(downloaded May 29, 2020 from open.canada.ca)</p>
 
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">

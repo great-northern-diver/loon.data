@@ -46,7 +46,7 @@ Some obvious questions of interest are the comparisons of treatments. For exampl
 A better than B? Than C?  Is B better than C?
 }
 \seealso{
-\code{\link{medicalRecords}}
+\code{\link{medicalRecords}}  \code{\link{covidNZ}}
 }
 \author{
 R.W. Oldford
