@@ -2,7 +2,7 @@
 #' 
 #' @description 
 #' The names (in English and in French) of 10,776 places in Canada together with their 
-#' geographic locations degrees longitude and latitude as compiled by the Government of Canada.
+#' geographic locations as compiled by the Government of Canada.
 #' 
 #' The data are part of the Canadian government's open data project.
 #'
@@ -10,7 +10,7 @@
 #' \describe{
 #'  \item{ID}{The identification number of the place name (called "PNuid_NLidu" in the source).}
 #'  \item{Name}{A character vector containing the place name in English.}
-#'  \item{Nom}{A character vector containing the p place name in French.}
+#'  \item{Nom}{A character vector containing the place name in French.}
 #'  \item{Province}{A factor with 13 levels giving the two-letter code for the Canadian province or territory.}
 #'  \item{Latitude}{A numeric vector giving the latitude of the place.}
 #'  \item{Longitude}{A numeric vector giving the longitude of the place.}

@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Changelog • loon.data</title>
+<title>Canadian place names and their geo-locations. — placenamesCanada • loon.data</title>
 
 <!-- favicons -->
 <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
@@ -46,7 +46,10 @@
 
 
 
-<meta property="og:title" content="Changelog" />
+<meta property="og:title" content="Canadian place names and their geo-locations. — placenamesCanada" />
+<meta property="og:description" content="The names (in English and in French) of 10,776 places in Canada together with their 
+geographic locations as compiled by the Government of Canada.
+The data are part of the Canadian government's open data project." />
 <meta property="og:image" content="/logo.png" />
 
 
@@ -66,7 +69,7 @@
   </head>
 
   <body data-spy="scroll" data-target="#toc">
-    <div class="container template-news">
+    <div class="container template-reference-topic">
       <header>
       <div class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container">
@@ -118,111 +121,55 @@
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-      <h1 data-toc-skip>Changelog <small></small></h1>
-      
+    <h1>Canadian place names and their geo-locations.</h1>
+    
+    <div class="hidden name"><code>placenamesCanada.Rd</code></div>
     </div>
 
-    <div id="loon-data-0-1-0" class="section level1">
-<h1 class="page-header" data-toc-text="0.1.0">
-<a href="#loon-data-0-1-0" class="anchor"></a>loon.data 0.1.0<small> Unreleased </small>
-</h1>
-<ul>
-<li><p>added the New Zealand current cases on COVID-19 as of May 28, 2020.</p></li>
-<li><p>added dataset containing the names and locations of more than 10,000 places in Canada (French and English)</p></li>
-</ul>
-</div>
-    <div id="loon-data-0-0-9" class="section level1">
-<h1 class="page-header" data-toc-text="0.0.9">
-<a href="#loon-data-0-0-9" class="anchor"></a>loon.data 0.0.9<small> 2020-05-19 </small>
-</h1>
-<ul>
-<li><p>organized topics in pkgdown yaml</p></li>
-<li><p>added the <code>diabetes</code> data from Andrews and Herzberg</p></li>
-<li>added the data on rock crabs from <code>MASS</code> separated into two data sets for pedagogical purposes
-<ul>
-<li>
-<code>lepto</code> contains the physical size measurements (rows randomized from <code>crabs</code> from <code>MASS</code>)</li>
-<li>
-<code>crabSpecies</code> contains the species and sex from <code>crabs</code> in row order given by <code>lepto</code>.</li>
-</ul>
-</li>
-<li>added data on sampling from a set of 100 flat plastic blocks
-<ul>
-<li>
-<code>blocks</code> contains the ids of each of the 100 blocks as well as their weight, their perimeter, and to which of two strata they belong.</li>
-<li>
-<code>judgment</code> contains the judgment sample of 10 blocks chosen by each of 33 graduate students</li>
-<li>together these two data sets are used to illustrate sampling methods.</li>
-</ul>
-</li>
-<li>added three fictional data sets (and contexts) to be used for teaching
-<ul>
-<li>
-<code>lizards</code> is a fictional data set on perch preferences for four different species of lizard. Useful to illustrate a continuous counter part to Simpson’s paradox often called the “ecological fallacy”.</li>
-<li>
-<code>pandemic</code> is a fictional data set on recovery rates for three treatments for patients from 100 cities worldwide. Designed to make students think when comparing treatments. Contains a cyclic ordering of treatments</li>
-<li>
-<code>medicalRecords</code> is a fictional data set containing counts in a 2x2x2x2 table. Designed to contain a double reversing Simpson’s paradox.</li>
-</ul>
-</li>
-</ul>
-</div>
-    <div id="loon-data-0-0-8" class="section level1">
-<h1 class="page-header" data-toc-text="0.0.8">
-<a href="#loon-data-0-0-8" class="anchor"></a>loon.data 0.0.8<small> 2020-04-19 </small>
-</h1>
-<ul>
-<li><p>added the protein/DNA complex <code>SCmolecule</code> from Baker’s Yeast (Saccharomyces Cerevisiae) from PDB 1d66</p></li>
-<li><p>added <code>elements</code> containing a variety of information on the first 118 elements from the periodic table.</p></li>
-</ul>
-</div>
-    <div id="loon-data-0-0-7" class="section level1">
-<h1 class="page-header" data-toc-text="0.0.7">
-<a href="#loon-data-0-0-7" class="anchor"></a>loon.data 0.0.7<small> Unreleased </small>
-</h1>
-<ul>
-<li>Added and documented datasets that had previously been used from the package <code>ElemStatLearn</code> since it has been orphaned and as of 2020 archived.</li>
-<li>Documentation of these added datasets is richer than that found in <code>ElemStatLearn</code> package</li>
-<li>datasets added are
-<ul>
-<li>
-<code>SAheart</code> South African Heart Disease Data</li>
-<li>
-<code>bone</code> Relative Spinal Bone Mineral Density Data (note variable name changes from <code>ElemStatLearn</code> and edition of <code>ethnic</code>)</li>
-<li>
-<code>bone_ext</code> Spinal Bone Mineral Density (Extended) Data (the larger data set including “ethnicities” from website accompany Elements of Statistical Learning book)</li>
-</ul>
-</li>
-</ul>
-</div>
-    <div id="loon-data-0-0-6" class="section level1">
-<h1 class="page-header" data-toc-text="0.0.6">
-<a href="#loon-data-0-0-6" class="anchor"></a>loon.data 0.0.6<small> 2019-09-28 </small>
-</h1>
-<ul>
-<li>Changes to alaska_forest data, removed redundant rows, changed variable names to lower case.</li>
-</ul>
-</div>
-    <div id="loon-data-0-0-5" class="section level1">
-<h1 class="page-header" data-toc-text="0.0.5">
-<a href="#loon-data-0-0-5" class="anchor"></a>loon.data 0.0.5<small> 2019-07-18 </small>
-</h1>
-<ul>
-<li>Renamed <code>RnavgraphImageData</code> to <code>loon.data</code>
-</li>
-<li>added <code>list_images</code> functions</li>
-<li>removed <code>L2Distance</code>
-</li>
-</ul>
-</div>
-  </div>
+    <div class="ref-description">
+    <p>The names (in English and in French) of 10,776 places in Canada together with their 
+geographic locations as compiled by the Government of Canada.</p>
+<p>The data are part of the Canadian government's open data project.</p>
+    </div>
 
+
+
+    <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
+
+    <p>A data frame with 10,676 rows and 6 variables</p><dl'>
+ <dt>ID</dt><dd><p>The identification number of the place name (called "PNuid_NLidu" in the source).</p></dd>
+ <dt>Name</dt><dd><p>A character vector containing the place name in English.</p></dd>
+ <dt>Nom</dt><dd><p>A character vector containing the place name in French.</p></dd>
+ <dt>Province</dt><dd><p>A factor with 13 levels giving the two-letter code for the Canadian province or territory.</p></dd>
+ <dt>Latitude</dt><dd><p>A numeric vector giving the latitude of the place.</p></dd>
+ <dt>Longitude</dt><dd><p>A numeric vector giving the longitude of the place.</p></dd>
+
+</dl>
+
+    <h2 class="hasAnchor" id="source"><a class="anchor" href="#source"></a>Source</h2>
+
+    <p><a href='https://open.canada.ca/data/en/dataset/fe945388-1dd9-4a4a-9a1e-5c552579a28c'>https://open.canada.ca/data/en/dataset/fe945388-1dd9-4a4a-9a1e-5c552579a28c</a></p>
+    <h2 class="hasAnchor" id="details"><a class="anchor" href="#details"></a>Details</h2>
+
+    <p>Note that English and French names rarely differ in this data set.</p>
+<p>Details from the source:</p>
+<p>"The collection of geolocated placenames in Canada represents a consistent and comprehensive 
+distribution of named places across Canada. Named places include large and small cities, villages, 
+First Nations Communities, Small Hamlets etc.</p>
+<p>"This data draws from public information maintained by Natural Resources Canada as part of 
+the Canadian Geographical Names Database and public information maintained by Crown-Indigenous 
+Relations and Northern Affairs Canada.</p>
+<p>"The set of geolocated placenames is currently used for the administration of rural broadband 
+Internet contribution programs, but is equally applicable for other mapping or modelling purposes 
+where a comprehensive set of geolocated placenames across Canada is required."</p>
+<p>(downloaded May 29, 2020 from open.canada.ca)</p>
+
+  </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
     <nav id="toc" data-toggle="toc" class="sticky-top">
       <h2 data-toc-skip>Contents</h2>
     </nav>
   </div>
-
 </div>
 
 
