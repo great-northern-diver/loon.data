@@ -1,4 +1,8 @@
 
+# loon.data 0.1.0
+
+* added the New Zealand current cases on COVID-19 as of May 28, 2020.
+
 # loon.data 0.0.9
 
 * organized topics in pkgdown yaml

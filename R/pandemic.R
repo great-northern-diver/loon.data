@@ -49,7 +49,7 @@
 #' @name pandemic
 #' 
 #' @seealso  
-#' \code{\link{medicalRecords}}
+#' \code{\link{medicalRecords}}  \code{\link{covidNZ}}
 #' 
 #' @keywords fictional medicine paradox teaching
 #' 

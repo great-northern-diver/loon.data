@@ -84,7 +84,7 @@ R.J. MacKay and R.W. Oldford 2000,
   Statistical Science, Volume 15, No. 3, pp. 254-278.  DOI:10.1214/ss/1009212817
 }
 \seealso{
-\code{\link{pandemic}}
+\code{\link{pandemic}}  \code{\link{covidNZ}}
 }
 \author{
 R.W. Oldford
