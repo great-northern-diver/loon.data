@@ -27,6 +27,11 @@ reference:
     - igg1
     - SCmolecule
     
+  - subtitle: Geography
+    desc: Geographic data
+    contents:
+    - placenamesCanada
+    
   - subtitle: Images
     desc: Image data
     contents:

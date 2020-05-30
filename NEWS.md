@@ -3,6 +3,8 @@
 
 * added the New Zealand current cases on COVID-19 as of May 28, 2020.
 
+* added dataset containing the names and locations of more than 10,000 places in Canada (French and English)
+
 # loon.data 0.0.9
 
 * organized topics in pkgdown yaml
