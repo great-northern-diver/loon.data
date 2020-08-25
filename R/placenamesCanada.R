@@ -38,6 +38,5 @@
 #'  
 #' @name placenamesCanada
 #' @docType data
-#' @source \url{https://open.canada.ca/data/en/dataset/fe945388-1dd9-4a4a-9a1e-5c552579a28c}
 #' @keywords geography
 NULL
