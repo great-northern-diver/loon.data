@@ -3,6 +3,6 @@
 
 [![Build Status](https://travis-ci.org/great-northern-diver/loon.data.svg?branch=master)](https://travis-ci.org/great-northern-diver/loon.data)
 
-R package with data used in the `loon` examples and demos.
+R package with data used in the `loon` examples, demos, and more.
 
-Documentation: [http://great-northern-diver.github.io/loon.data/](http://great-northern-diver.github.io/loon.data/)
+Documentation: [https://great-northern-diver.github.io/loon.data/](https://great-northern-diver.github.io/loon.data/)
