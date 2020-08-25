@@ -1,4 +1,11 @@
 
+# loon.data 0.1.1
+
+* Very minor changes
+    - removed an accented character from New Zealand district name Tairawhiti
+    - changed each URL from http: to https:
+    - had to remove @source for placenamesCanada because access to the URL timed out in testing.  URL is now buried in the comments.
+    
 # loon.data 0.1.0
 
 * added the New Zealand current cases on COVID-19 as of May 28, 2020.
