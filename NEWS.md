@@ -1,4 +1,8 @@
 
+# loon.data 0.1.2
+
+* added the data set `trtPan` which is a rearrangement of the data contained in `pandemic`
+
 # loon.data 0.1.1
 
 * Very minor changes
