@@ -1,11 +1,11 @@
-#' @title Fictional pandemic data
+#' @title Fictional pandemic data (with treatment variable)
 #'
 #' @description  
 #' 
 #' An entirely artificially constructed data set and context designed for classroom discussion and
 #' analysis. 
 #' 
-#' The data (and the fictional narrative below) are identical to those of  \code{\link{trtPan}};
+#' The data (and the fictional narrative below) are identical to those of  \code{\link{pandemic}};
 #' the only difference is the organization of the data. 
 #' Which organization the instructor might choose depends upon the modelling 
 #' and/or data manipulation is intended for analysis.
@@ -19,17 +19,16 @@
 #' Instructors might choose to invent their own context.
 #' 
 #' 
-#' @format A data frame with 100 rows and 4 variables
+#' @format A data frame with 300 rows and 3 variables
 #' \describe{
 #'  \item{City}{City for which the outcome data were recorded. }
-#'  \item{A}{The percent survival rate for infected persons given medical treatment "A".}
-#'  \item{B}{The percent survival rate for infected persons given medical treatment "B".}
-#'  \item{C}{The percent survival rate for infected persons given medical treatment "C".}
+#'  \item{Treatment}{The treatment used (one of "A", "B", or "C").}
+#'  \item{Recovery}{The percent survival rate for infected persons in that city when given that medical treatment.}
 #' }
 #' 
 #' 
 #' @details 
-#'  
+#' 
 #' One fictional narrative for this data set is as follows.
 #' 
 #' A virulent virus has led to a world wide pandemic and that the case fatality rate 
@@ -51,10 +50,10 @@
 #' 
 #' @docType data
 #' 
-#' @name pandemic
+#' @name trtPan
 #' 
 #' @seealso  
-#' \code{\link{trtPan}}
+#' \code{\link{pandemic}}
 #' \code{\link{medicalRecords}}  \code{\link{covidNZ}}
 #' 
 #' @keywords fictional medicine paradox teaching

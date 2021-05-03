@@ -10,7 +10,7 @@ A data frame with 1154 rows and 9 variables
  \item{Case_date}{The date notified of a potential case.  This variable is of class "Date" in day-month-year format. }
  \item{Sex}{The sex of the person, a factor with two levels: Male and Female}
  \item{Age}{The age group to which the person belongs.  This is a factor having levels marked in year groups:
- "<1", "01 to 04", "0 to 09", "10 to 14", "15 to 19", "20 to 29", "30 to 39", "40 to 49", }
+ "< 1", "01 to 04", "05 to 09", "10 to 14", "15 to 19", "20 to 29", "30 to 39", "40 to 49", }
  \item{District_Health_Board}{A character vector giving the name of the DHB or District Health Board where the case occurred.}
  \item{Overseas_travel}{A factor indicating whether the patient recently travelled overseas.}
  \item{Last_country_visited}{A character vector giving the name, if known, of the last country visited by the person. }

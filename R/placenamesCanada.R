@@ -34,10 +34,10 @@
 #' Internet contribution programs, but is equally applicable for other mapping or modelling purposes 
 #' where a comprehensive set of geolocated placenames across Canada is required."
 #' 
-#' (downloaded May 29, 2020 from open.canada.ca)
+#' (downloaded May 29, 2020 from open.canada.ca at the slow loading
+#'  open.canada.ca/data/en/dataset/fe945388-1dd9-4a4a-9a1e-5c552579a28c)
 #'  
 #' @name placenamesCanada
 #' @docType data
-#' @source \url{https://open.canada.ca/data/en/dataset/fe945388-1dd9-4a4a-9a1e-5c552579a28c}
 #' @keywords geography
 NULL

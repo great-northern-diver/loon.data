@@ -57,6 +57,7 @@ reference:
     - diabetes
     - medicalRecords
     - pandemic
+    - trtPan
     - SAheart
    
   - subtitle: Nature
@@ -80,3 +81,4 @@ reference:
     - lizards
     - medicalRecords
     - pandemic
+    - trtPan

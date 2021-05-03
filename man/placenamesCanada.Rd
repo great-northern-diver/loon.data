@@ -15,9 +15,6 @@ A data frame with 10,676 rows and 6 variables
  \item{Longitude}{A numeric vector giving the longitude of the place.}
 }
 }
-\source{
-\url{https://open.canada.ca/data/en/dataset/fe945388-1dd9-4a4a-9a1e-5c552579a28c}
-}
 \description{
 The names (in English and in French) of 10,776 places in Canada together with their 
 geographic locations as compiled by the Government of Canada.
@@ -41,6 +38,7 @@ Relations and Northern Affairs Canada.
 Internet contribution programs, but is equally applicable for other mapping or modelling purposes 
 where a comprehensive set of geolocated placenames across Canada is required."
 
-(downloaded May 29, 2020 from open.canada.ca)
+(downloaded May 29, 2020 from open.canada.ca at the slow loading
+ open.canada.ca/data/en/dataset/fe945388-1dd9-4a4a-9a1e-5c552579a28c)
 }
 \keyword{geography}
