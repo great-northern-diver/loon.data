@@ -10,7 +10,7 @@
 #' @docType data
 #' @format Data frame with 400 variables (one image per variable) and 4,096 rows
 #' (the greyscale values of a 64x64 image).
-#' @source \url{https://cs.nyu.edu/~roweis/data.html}
+#' @source Sam Roweis's data page at cs.nyu.edu.
 #' @keywords images
 #' @seealso \code{\link{frey}}, \code{\link{ordfrey}}
 NULL

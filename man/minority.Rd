@@ -30,9 +30,6 @@ A data frame with 33 rows and 18 variates
 }
 `rownames(minority)` are the names of the metropolitan areas or cities.
 }
-\source{
-\url{https://www.statcan.gc.ca/}
-}
 \description{
 Population census count of various named
   visible minority groups in each of 33 major census metropolitan

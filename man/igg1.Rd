@@ -15,16 +15,12 @@ A data frame with 1556 rows and 10 variates:
  the igg1 molecule, these will be a part of some carbohydrate.}
  \item{name}{Name of the alpha carbon atom.}
  \item{residue}{The three letter abbreviated name of the residue.}
- \item{chainID}{Chains H and I (heavy), residues 1-452 each; Chains L, and M (light), residues 501-716; Chain C (carbohydate), residues 1-9, 10-18.}
+ \item{chainID}{Chains H and I (heavy), residues 1-452 each; Chains L, and M (light), residues 501-716; Chain C (carbohydrate), residues 1-9, 10-18.}
  \item{residueSequenceNum}{Order in which that carbon atom appears in its chain.}
  \item{x, y, z}{Coordinates of the carbon atom in three-dimensonal space.}
  \item{residueName}{Full name of the residue.}
  \item{group}{A group characteristic for that residue.}
 }
-}
-\source{
-\url{https://www.umass.edu/microbio/rasmol/padlan.htm}
-\url{https://www.tocris.com/resources/peptide-nomenclature-guide}
 }
 \description{
 Human immunoglobulin G1 is an antibody molecule of

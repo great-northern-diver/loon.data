@@ -11,6 +11,6 @@
 #' @docType data
 #' @seealso \code{\link{ordalphadigits}}
 #' @references From Simon Lucas' (sml@essex.ac.uk), Algoval system. 
-#' @source \url{https://cs.nyu.edu/~roweis/data.html}
+#' @source Sam Roweis's data page at cs.nyu.edu.
 #' @keywords images
 NULL

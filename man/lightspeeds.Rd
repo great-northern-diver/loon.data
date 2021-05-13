@@ -129,7 +129,7 @@ measurements of the speed of light.
 \references{
 R.W. Oldford 1994, 
   `The speed of light: A case study in empirical problem solving`,
-  Unpublished manuscript. DOI: 10.13140
+  Unpublished manuscript. <doi:10.13140>
 }
 \seealso{
 \code{\link{michelson_1879}}

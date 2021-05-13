@@ -19,7 +19,7 @@
 #' 
 #' @name digits
 #' @docType data
-#' @source \url{https://cs.nyu.edu/~roweis/data.html}
+#' @source Sam Roweis's data page at cs.nyu.edu.
 #' @seealso binaryalphadigits
 #' @keywords images
 NULL

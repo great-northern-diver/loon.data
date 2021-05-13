@@ -35,7 +35,9 @@
 #'  Periodic remeasurements can also be used to test and monitor large-scale environmental 
 #'  and climate change."
 #' 
-#' @source Raw data from source \url{https://www.fs.usda.gov/treesearch/pubs/32894} and provided by
+#' @source 
+#' Raw data from the Forest Service of the U.S. Department of Agriculture 
+#' fs.usda.gov publication (No. 32894) website and provided by
 #' 
 #' Sol Cooperdock and Brendan Rogers,
 #' Woods Hole Research Center, 149 Woods Hole Road, Falmouth MA 02540, USA and

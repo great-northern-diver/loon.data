@@ -24,9 +24,6 @@ A data frame with 145 rows and 6 variables
 
 The row order of the values match the "Patient Number" given in the source table.
 }
-\source{
-\url{https://doi.org/10.1007/978-1-4612-5098-2}
-}
 \description{
 Data  on 145 non-obese patients collected at the Stanford Clinical Reseach Center to investigate "the relationship between
 chemical subclinical and overt nonketotic diabetes.  The three primary variables used in the analysis and  presented [here] are glucose intolerance, insulin response
@@ -65,7 +62,7 @@ This is a dataset from the "Data" book by Andrews and Herzberg (1985) Chapter 36
 \references{
 David F. Andrews and Agnes M. Herzberg (1985) 
   "Data: A Collection of Problems from Many Fields for the Student and Research Worker", 
-  Springer, New York. DOI:10.1007/978-1-4612-5098-2
+  Springer, New York. <doi:10.1007/978-1-4612-5098-2>
 }
 \author{
 R.W. Oldford
