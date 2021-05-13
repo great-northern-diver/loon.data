@@ -21,7 +21,7 @@ A data frame with 485 rows and 5 variables
 The row order of the values follow their order of appearence in the source webpage.
 }
 \source{
-\url{https://web.stanford.edu/~hastie/ElemStatLearn/}
+Trevor Hastie's "Elements of Statistical Learning" page at Stanford.
 }
 \description{
 From the web source: 
@@ -88,7 +88,7 @@ Laura K. Bachrach, Trevor Hastie, May-Choo Wang, Balasubramanian Narasimhan, and
   
   Trevor Hastie, Robert Tibshirani, and Jerome Friedman (2009) 
   "The Elements of Statistical Learning", 2nd Edition, Springer New York
-  DOI: 10.1007/978-0-387-84858-7
+  <doi:10.1007/978-0-387-84858-7>
 }
 \seealso{
 \code{\link{bone_ext}}

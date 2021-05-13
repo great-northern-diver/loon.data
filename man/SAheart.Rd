@@ -33,7 +33,7 @@ A data frame with 462 rows and 10 variables
 The row order of the values follow their order of appearence in the source webpage.
 }
 \source{
-\url{https://web.stanford.edu/~hastie/ElemStatLearn/}
+Trevor Hastie's "Elements of Statistical Learning" page at Stanford.
 }
 \description{
 From the web source: 
@@ -91,7 +91,7 @@ Trevor Hastie and Robert Tibshirani (1987)
   
   Trevor Hastie, Robert Tibshirani, and Jerome Friedman (2009) 
   "The Elements of Statistical Learning", 2nd Edition, Springer New York
-  DOI: 10.1007/978-0-387-84858-7
+  <doi:10.1007/978-0-387-84858-7>
   
   J.E. Rossouw, J.P.D. Plessis, A.J.S. Benad\'{e}, P.C.J. Jordaan, 
   J.P. Kotz\'{e}, P.L. Jooste, and J.J. Ferreira (1983)

@@ -70,8 +70,5 @@
 #'   
 #'   David F. Andrews and Agnes M. Herzberg (1985) 
 #'   "Data: A Collection of Problems from Many Fields for the Student and Research Worker", 
-#'   Springer, New York. DOI:10.1007/978-1-4612-5098-2
-#'   
-#' @source 
-#' \url{https://doi.org/10.1007/978-1-4612-5098-2}  
+#'   Springer, New York. <doi:10.1007/978-1-4612-5098-2>
 NULL

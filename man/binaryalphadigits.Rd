@@ -10,7 +10,7 @@ A data frame with 1,404 rows each representing an image (39 examples of 36 class
   of a 20x16 alpha-numeric image).
 }
 \source{
-\url{https://cs.nyu.edu/~roweis/data.html}
+Sam Roweis's data page at cs.nyu.edu.
 }
 \description{
 Binary 20x16 digits of "0" through "9" and capital "A" through "Z". 39 examples of each class.

@@ -131,7 +131,7 @@
 #' @references
 #'   R.W. Oldford 1994, 
 #'   `The speed of light: A case study in empirical problem solving`,
-#'   Unpublished manuscript. DOI: 10.13140
+#'   Unpublished manuscript. <doi:10.13140>
 #' @source 
 #' \url{https://www.researchgate.net/publication/275521939_The_speed_of_light_A_case_study_in_empirical_problem_solving}  
 NULL

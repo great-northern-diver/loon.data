@@ -16,7 +16,7 @@ A data frame with 256 rows and 11000 variables.
  "1", "2", "3", "4", "5", "6", "7", "8", "9", "0"
 }
 \source{
-\url{https://cs.nyu.edu/~roweis/data.html}
+Sam Roweis's data page at cs.nyu.edu.
 }
 \description{
 U.S. Postal Service handwritten digit "0" through "9".

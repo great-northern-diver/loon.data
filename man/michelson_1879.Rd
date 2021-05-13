@@ -26,9 +26,6 @@ A data frame with 100 rows and 15 variables
  \item{Remarks}{Unusual remarks recorded for that observation.}
 }
 }
-\source{
-\url{https://projecteuclid.org/euclid.ss/1009212817}
-}
 \description{
 In 1879, Albert Abraham Michelson conducted an experimental study to
 determine the speed of light using a rotating mirror apparatus at the
@@ -71,7 +68,7 @@ See reference for more details.
 \references{
 R.J. MacKay and R.W. Oldford 2000, 
   `Scientific Method, Statistical Method, and the Speed of Light`,
-  Statistical Science, Volume 15, No. 3, pp. 254-278. DOI:10.1214/ss/1009212817
+  Statistical Science, Volume 15, No. 3, pp. 254-278. <doi:10.1214/ss/1009212817>
 }
 \seealso{
 \code{\link{lightspeeds}}

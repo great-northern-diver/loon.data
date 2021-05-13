@@ -1,4 +1,11 @@
 
+# loon.data 0.1.3
+
+* fixed the data set `covidNZ` to have its variable types match the help
+  description.  Now a mix of factors, character vectors, and dates.
+
+* removed urls as sources. Only <doi: ...> now appear.
+
 # loon.data 0.1.2
 
 * added the data set `trtPan` which is a rearrangement of the data contained in `pandemic`

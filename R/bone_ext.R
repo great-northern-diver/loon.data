@@ -70,8 +70,8 @@
 #'   
 #'   Trevor Hastie, Robert Tibshirani, and Jerome Friedman (2009) 
 #'   "The Elements of Statistical Learning", 2nd Edition, Springer New York
-#'   DOI: 10.1007/978-0-387-84858-7
+#'   <doi:10.1007/978-0-387-84858-7>
 #'   
 #' @source 
-#' \url{https://web.stanford.edu/~hastie/ElemStatLearn/}  
+#' Trevor Hastie's "Elements of Statistical Learning" page at Stanford.
 NULL

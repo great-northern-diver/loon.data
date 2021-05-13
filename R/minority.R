@@ -37,6 +37,4 @@
 #' @docType data
 #' @name minority
 #' @keywords census population social
-#' 
-#' @source \url{https://www.statcan.gc.ca/}
 NULL

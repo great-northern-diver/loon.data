@@ -19,7 +19,7 @@ A data frame with 1003 rows and 5 variables
 The row order of the values follow their order of appearence in the source webpage.
 }
 \source{
-\url{https://web.stanford.edu/~hastie/ElemStatLearn/}
+Trevor Hastie's "Elements of Statistical Learning" page at Stanford.
 }
 \description{
 These are measures on spinal areal bone mineral density.  The data
@@ -63,7 +63,7 @@ Laura K. Bachrach, Trevor Hastie, May-Choo Wang, Balasubramanian Narasimhan, and
   
   Trevor Hastie, Robert Tibshirani, and Jerome Friedman (2009) 
   "The Elements of Statistical Learning", 2nd Edition, Springer New York
-  DOI: 10.1007/978-0-387-84858-7
+  <doi:10.1007/978-0-387-84858-7>
 }
 \seealso{
 \code{\link{bone}}

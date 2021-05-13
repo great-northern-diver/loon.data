@@ -82,7 +82,7 @@ Confirmed cases are people that have had a positive laboratory test." />
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="../index.html">loon.data</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.1.2</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.1.3</span>
       </span>
     </div>
 
@@ -90,7 +90,7 @@ Confirmed cases are people that have had a positive laboratory test." />
       <ul class="nav navbar-nav">
         <li>
   <a href="../index.html">
-    <span class="fas fa fas fa-home fa-lg"></span>
+    <span class="fas fa-home fa-lg"></span>
      
   </a>
 </li>
@@ -104,7 +104,7 @@ Confirmed cases are people that have had a positive laboratory test." />
       <ul class="nav navbar-nav navbar-right">
         <li>
   <a href="https://github.com/great-northern-diver/loon.data">
-    <span class="fa fa-github fa-lg"></span>
+    <span class="fas fa-github fa-lg"></span>
      
   </a>
 </li>
@@ -136,13 +136,13 @@ Confirmed cases are people that have had a positive laboratory test.</p>
 
     <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
 
-    <p>A data frame with 1154 rows and 9 variables</p><dl'>
+    <p>A data frame with 1154 rows and 9 variables</p><dl>
  <dt>Case_date</dt><dd><p>The date notified of a potential case.  This variable is of class "Date" in day-month-year format.</p></dd>
  <dt>Sex</dt><dd><p>The sex of the person, a factor with two levels: Male and Female</p></dd>
  <dt>Age</dt><dd><p>The age group to which the person belongs.  This is a factor having levels marked in year groups:
  "&lt; 1", "01 to 04", "05 to 09", "10 to 14", "15 to 19", "20 to 29", "30 to 39", "40 to 49",</p></dd>
  <dt>District_Health_Board</dt><dd><p>A character vector giving the name of the DHB or District Health Board where the case occurred.</p></dd>
- <dt>Overseas_travel</dt><dd><p>A factor indicating whether the patient recently travelled overseas.</p></dd>
+ <dt>Overseas_travel</dt><dd><p>A character vector indicating whether the patient recently travelled overseas.</p></dd>
  <dt>Last_country_visited</dt><dd><p>A character vector giving the name, if known, of the last country visited by the person.</p></dd>
  <dt>Flight_number</dt><dd><p>A character vector recording the number of the flight flown from the last country.</p></dd>
  <dt>Flight_departure_date</dt><dd><p>A vector of class "Date" giving the flight's departure date from the last country visited.</p></dd>
@@ -152,11 +152,11 @@ Confirmed cases are people that have had a positive laboratory test.</p>
 
     <h2 class="hasAnchor" id="source"><a class="anchor" href="#source"></a>Source</h2>
 
-    <p><a href='https://www.health.govt.nz/our-work/diseases-and-conditions/covid-19-novel-coronavirus/covid-19-current-situation/covid-19-current-cases/covid-19-current-cases-details'>https://www.health.govt.nz/our-work/diseases-and-conditions/covid-19-novel-coronavirus/covid-19-current-situation/covid-19-current-cases/covid-19-current-cases-details</a></p>
+    <p>New Zealand government health website accessed May 28, 2020.</p>
     <h2 class="hasAnchor" id="details"><a class="anchor" href="#details"></a>Details</h2>
 
-    <p>From the source:  (May 28, 2020: https://www.health.govt.nz/our-work/diseases-and-conditions/covid-19-novel-coronavirus/covid-19-current-situation/covid-19-current-cases/)</p>
-<p>"The case definition has been amended to de-couple respiratory symptoms 
+    <p>From the source:  (May 28, 2020: health.gov.nz) 
+"The case definition has been amended to de-couple respiratory symptoms 
 from a history of travel. Testing is available to people with respiratory 
 symptoms suggestive of COVID-19 infection (including the acute onset of 
 cough with or without fever). This is regardless of travel history or 
@@ -171,6 +171,9 @@ Laboratory definitive evidence requires at least one of the following:
     <h2 class="hasAnchor" id="see-also"><a class="anchor" href="#see-also"></a>See also</h2>
 
     <div class='dont-index'><p><code><a href='igg1.html'>igg1</a></code> <code><a href='medicalRecords.html'>medicalRecords</a></code> <code><a href='pandemic.html'>pandemic</a></code></p></div>
+    <h2 class="hasAnchor" id="author"><a class="anchor" href="#author"></a>Author</h2>
+
+    <p>R.W. Oldford</p>
 
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
@@ -187,7 +190,7 @@ Laboratory definitive evidence requires at least one of the following:
 </div>
 
 <div class="pkgdown">
-  <p>Site built with <a href="https://pkgdown.r-lib.org/">pkgdown</a> 1.5.1.</p>
+  <p>Site built with <a href="https://pkgdown.r-lib.org/">pkgdown</a> 1.6.1.</p>
 </div>
 
       </footer>
