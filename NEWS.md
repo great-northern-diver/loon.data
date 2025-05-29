@@ -1,4 +1,8 @@
 
+# loon.data 0.1.4
+
+* fixed the references for data set `SAHeart` to avoid accents causing notes in CRAN.
+
 # loon.data 0.1.3
 
 * fixed the data set `covidNZ` to have its variable types match the help

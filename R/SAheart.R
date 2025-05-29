@@ -97,8 +97,8 @@
 #'   "The Elements of Statistical Learning", 2nd Edition, Springer New York
 #'   <doi:10.1007/978-0-387-84858-7>
 #'   
-#'   J.E. Rossouw, J.P.D. Plessis, A.J.S. Benad\'{e}, P.C.J. Jordaan, 
-#'   J.P. Kotz\'{e}, P.L. Jooste, and J.J. Ferreira (1983)
+#'   J.E. Rossouw, J.P.D. Plessis, A.J.S. Benade, P.C.J. Jordaan, 
+#'   J.P. Kotze, P.L. Jooste, and J.J. Ferreira (1983)
 #'   "Coronary risk factor screening in three rural communities: The CORIS baseline study". 
 #'   South African Medical Journal, 64, 430-436.
 #'   

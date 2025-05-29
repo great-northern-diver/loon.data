@@ -1,7 +1,7 @@
 Package: loon.data
 Type: Package
 Title: Data Used to Illustrate 'Loon' Functionality
-Version: 0.1.3
+Version: 0.1.4
 Authors@R: c(
     person("R. Wayne", "Oldford", , "rwoldford@uwaterloo.ca", role =  c("aut", "cre")),
     person("Adrian", "Waddell", , "adrian@waddell.ch", role = "aut")
@@ -10,5 +10,5 @@ Description: Data used as examples in the 'loon' package.
 URL: https://great-northern-diver.github.io/loon.data/
 Depends: R (>= 3.5.0)
 License: GPL-2
-RoxygenNote: 7.1.1
+RoxygenNote: 7.3.2
 Encoding: UTF-8
